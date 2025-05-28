@@ -1,0 +1,247 @@
+2025-05-27 18:51:23,129 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:37 - Initializing SimulationEngine for experiment: ResponsiveHG_W40_Rep2
+2025-05-27 18:51:23,131 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:70 - Visualization disabled.
+2025-05-27 18:51:23,131 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:202 - Starting simulation: ResponsiveHG_W40_Rep2
+2025-05-27 18:51:23,132 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:204 - Colony initialized: 5 cells.
+2025-05-27 18:51:23,133 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=0.00: Cells=5, MaxR=1.73, Pheno={'G_SPECIALIST': 5, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,134 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=1.00: Cells=7, MaxR=3.46, Pheno={'G_SPECIALIST': 7, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,135 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=2.00: Cells=8, MaxR=4.58, Pheno={'G_SPECIALIST': 8, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,136 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=3.00: Cells=11, MaxR=4.58, Pheno={'G_SPECIALIST': 11, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,137 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=4.00: Cells=15, MaxR=4.58, Pheno={'G_SPECIALIST': 15, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,139 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=5.00: Cells=16, MaxR=4.58, Pheno={'G_SPECIALIST': 16, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,140 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=6.00: Cells=18, MaxR=5.20, Pheno={'G_SPECIALIST': 18, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,143 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=7.00: Cells=19, MaxR=6.93, Pheno={'G_SPECIALIST': 19, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,145 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=8.00: Cells=21, MaxR=6.93, Pheno={'G_SPECIALIST': 21, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,146 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=9.00: Cells=24, MaxR=6.93, Pheno={'G_SPECIALIST': 24, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,148 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=10.00, Cells=27
+2025-05-27 18:51:23,149 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=10.00: Cells=27, MaxR=6.93, Pheno={'G_SPECIALIST': 27, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,151 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=11.00: Cells=33, MaxR=7.55, Pheno={'G_SPECIALIST': 33, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,154 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=12.00: Cells=37, MaxR=7.55, Pheno={'G_SPECIALIST': 37, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,158 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=13.00: Cells=49, MaxR=9.64, Pheno={'G_SPECIALIST': 49, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,162 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=14.00: Cells=53, MaxR=9.64, Pheno={'G_SPECIALIST': 53, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,165 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=15.00: Cells=61, MaxR=12.49, Pheno={'G_SPECIALIST': 61, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,170 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=16.00: Cells=71, MaxR=12.49, Pheno={'G_SPECIALIST': 71, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,176 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=17.00: Cells=87, MaxR=13.08, Pheno={'G_SPECIALIST': 87, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,182 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=18.00: Cells=98, MaxR=15.59, Pheno={'G_SPECIALIST': 98, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,189 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=19.00: Cells=111, MaxR=15.59, Pheno={'G_SPECIALIST': 111, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,195 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=20.00, Cells=115
+2025-05-27 18:51:23,198 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=20.00: Cells=115, MaxR=15.59, Pheno={'G_SPECIALIST': 115, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,204 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=21.00: Cells=119, MaxR=15.59, Pheno={'G_SPECIALIST': 119, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,214 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=22.00: Cells=133, MaxR=15.59, Pheno={'G_SPECIALIST': 133, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,225 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=23.00: Cells=149, MaxR=15.59, Pheno={'G_SPECIALIST': 149, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,236 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=24.00: Cells=164, MaxR=16.52, Pheno={'G_SPECIALIST': 164, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,247 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=25.00: Cells=180, MaxR=18.25, Pheno={'G_SPECIALIST': 180, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,259 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=26.00: Cells=200, MaxR=19.05, Pheno={'G_SPECIALIST': 200, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,273 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=27.00: Cells=220, MaxR=19.05, Pheno={'G_SPECIALIST': 220, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,289 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=28.00: Cells=236, MaxR=20.78, Pheno={'G_SPECIALIST': 236, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,305 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=29.00: Cells=252, MaxR=21.00, Pheno={'G_SPECIALIST': 252, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,319 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=30.00, Cells=276
+2025-05-27 18:51:23,323 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=30.00: Cells=280, MaxR=21.00, Pheno={'G_SPECIALIST': 280, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,342 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=31.00: Cells=311, MaxR=22.52, Pheno={'G_SPECIALIST': 311, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,363 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=32.00: Cells=328, MaxR=25.16, Pheno={'G_SPECIALIST': 328, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,385 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=33.00: Cells=351, MaxR=25.16, Pheno={'G_SPECIALIST': 351, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,409 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=34.00: Cells=376, MaxR=26.89, Pheno={'G_SPECIALIST': 376, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,434 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=35.00: Cells=404, MaxR=26.89, Pheno={'G_SPECIALIST': 404, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,461 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=36.00: Cells=420, MaxR=26.89, Pheno={'G_SPECIALIST': 420, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,488 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=37.00: Cells=442, MaxR=26.89, Pheno={'G_SPECIALIST': 442, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,520 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=38.00: Cells=481, MaxR=26.89, Pheno={'G_SPECIALIST': 481, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,551 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=39.00: Cells=509, MaxR=26.89, Pheno={'G_SPECIALIST': 509, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,578 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=40.00, Cells=529
+2025-05-27 18:51:23,585 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=40.00: Cells=533, MaxR=27.87, Pheno={'G_SPECIALIST': 533, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,619 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=41.00: Cells=555, MaxR=27.87, Pheno={'G_SPECIALIST': 555, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,655 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=42.00: Cells=588, MaxR=29.55, Pheno={'G_SPECIALIST': 588, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,695 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=43.00: Cells=623, MaxR=29.55, Pheno={'G_SPECIALIST': 623, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,735 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=44.00: Cells=650, MaxR=29.55, Pheno={'G_SPECIALIST': 650, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,780 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=45.00: Cells=681, MaxR=31.75, Pheno={'G_SPECIALIST': 681, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,828 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=46.00: Cells=721, MaxR=31.75, Pheno={'G_SPECIALIST': 721, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,876 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=47.00: Cells=765, MaxR=31.75, Pheno={'G_SPECIALIST': 765, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,926 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=48.00: Cells=808, MaxR=33.45, Pheno={'G_SPECIALIST': 808, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:23,980 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=49.00: Cells=847, MaxR=34.07, Pheno={'G_SPECIALIST': 847, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,028 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=50.00, Cells=875
+2025-05-27 18:51:24,038 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=50.00: Cells=882, MaxR=34.12, Pheno={'G_SPECIALIST': 882, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,096 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=51.00: Cells=916, MaxR=35.16, Pheno={'G_SPECIALIST': 916, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,156 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=52.00: Cells=951, MaxR=35.79, Pheno={'G_SPECIALIST': 951, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,217 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=53.00: Cells=994, MaxR=36.86, Pheno={'G_SPECIALIST': 994, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,284 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=54.00: Cells=1053, MaxR=38.22, Pheno={'G_SPECIALIST': 1053, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,355 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=55.00: Cells=1093, MaxR=39.15, Pheno={'G_SPECIALIST': 1093, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,431 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=56.00: Cells=1141, MaxR=39.84, Pheno={'G_SPECIALIST': 1141, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:51:24,511 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=57.00: Cells=1190, MaxR=40.84, Pheno={'G_SPECIALIST': 1187, 'SWITCHING_GL': 3, 'L_SPECIALIST': 0}
+2025-05-27 18:51:24,588 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=58.00: Cells=1233, MaxR=40.84, Pheno={'G_SPECIALIST': 1230, 'SWITCHING_GL': 3, 'L_SPECIALIST': 0}
+2025-05-27 18:51:24,667 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=59.00: Cells=1270, MaxR=40.95, Pheno={'G_SPECIALIST': 1265, 'SWITCHING_GL': 5, 'L_SPECIALIST': 0}
+2025-05-27 18:51:24,737 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=60.00, Cells=1302
+2025-05-27 18:51:24,753 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=60.00: Cells=1304, MaxR=40.95, Pheno={'G_SPECIALIST': 1299, 'SWITCHING_GL': 5, 'L_SPECIALIST': 0}
+2025-05-27 18:51:24,845 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=61.00: Cells=1357, MaxR=41.68, Pheno={'G_SPECIALIST': 1349, 'SWITCHING_GL': 8, 'L_SPECIALIST': 0}
+2025-05-27 18:51:24,935 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=62.00: Cells=1395, MaxR=41.68, Pheno={'G_SPECIALIST': 1387, 'L_SPECIALIST': 1, 'SWITCHING_GL': 7}
+2025-05-27 18:51:25,032 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=63.00: Cells=1438, MaxR=41.68, Pheno={'G_SPECIALIST': 1430, 'L_SPECIALIST': 1, 'SWITCHING_GL': 7}
+2025-05-27 18:51:25,128 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=64.00: Cells=1487, MaxR=41.68, Pheno={'G_SPECIALIST': 1475, 'L_SPECIALIST': 2, 'SWITCHING_GL': 10}
+2025-05-27 18:51:25,227 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=65.00: Cells=1530, MaxR=41.68, Pheno={'G_SPECIALIST': 1516, 'L_SPECIALIST': 2, 'SWITCHING_GL': 12}
+2025-05-27 18:51:25,328 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=66.00: Cells=1577, MaxR=41.68, Pheno={'G_SPECIALIST': 1561, 'L_SPECIALIST': 3, 'SWITCHING_GL': 13}
+2025-05-27 18:51:25,433 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=67.00: Cells=1622, MaxR=42.04, Pheno={'G_SPECIALIST': 1600, 'L_SPECIALIST': 4, 'SWITCHING_GL': 18}
+2025-05-27 18:51:25,549 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=68.00: Cells=1678, MaxR=42.04, Pheno={'G_SPECIALIST': 1649, 'L_SPECIALIST': 4, 'SWITCHING_GL': 25}
+2025-05-27 18:51:25,670 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=69.00: Cells=1728, MaxR=42.53, Pheno={'G_SPECIALIST': 1693, 'L_SPECIALIST': 7, 'SWITCHING_GL': 28}
+2025-05-27 18:51:25,776 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=70.00, Cells=1768
+2025-05-27 18:51:25,797 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=70.00: Cells=1773, MaxR=42.67, Pheno={'G_SPECIALIST': 1724, 'L_SPECIALIST': 11, 'SWITCHING_GL': 38}
+2025-05-27 18:51:25,920 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=71.00: Cells=1814, MaxR=42.67, Pheno={'G_SPECIALIST': 1754, 'L_SPECIALIST': 13, 'SWITCHING_GL': 47}
+2025-05-27 18:51:26,040 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=72.00: Cells=1852, MaxR=42.67, Pheno={'G_SPECIALIST': 1779, 'L_SPECIALIST': 17, 'SWITCHING_GL': 56}
+2025-05-27 18:51:26,162 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=73.00: Cells=1889, MaxR=42.67, Pheno={'G_SPECIALIST': 1801, 'L_SPECIALIST': 25, 'SWITCHING_GL': 63}
+2025-05-27 18:51:26,284 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=74.00: Cells=1935, MaxR=44.40, Pheno={'G_SPECIALIST': 1830, 'L_SPECIALIST': 29, 'SWITCHING_GL': 76}
+2025-05-27 18:51:26,408 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=75.00: Cells=1967, MaxR=44.40, Pheno={'G_SPECIALIST': 1850, 'L_SPECIALIST': 37, 'SWITCHING_GL': 80}
+2025-05-27 18:51:26,534 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=76.00: Cells=1991, MaxR=44.40, Pheno={'G_SPECIALIST': 1868, 'L_SPECIALIST': 44, 'SWITCHING_GL': 79}
+2025-05-27 18:51:26,660 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=77.00: Cells=2011, MaxR=44.40, Pheno={'G_SPECIALIST': 1878, 'L_SPECIALIST': 53, 'SWITCHING_GL': 80}
+2025-05-27 18:51:26,787 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=78.00: Cells=2028, MaxR=44.40, Pheno={'G_SPECIALIST': 1891, 'L_SPECIALIST': 61, 'SWITCHING_GL': 76}
+2025-05-27 18:51:26,918 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=79.00: Cells=2043, MaxR=45.13, Pheno={'G_SPECIALIST': 1899, 'L_SPECIALIST': 75, 'SWITCHING_GL': 69}
+2025-05-27 18:51:27,026 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=80.00, Cells=2061
+2025-05-27 18:51:27,049 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=80.00: Cells=2062, MaxR=45.43, Pheno={'G_SPECIALIST': 1905, 'L_SPECIALIST': 87, 'SWITCHING_GL': 70}
+2025-05-27 18:51:27,181 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=81.00: Cells=2080, MaxR=45.43, Pheno={'G_SPECIALIST': 1912, 'L_SPECIALIST': 95, 'SWITCHING_GL': 73}
+2025-05-27 18:51:27,318 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=82.00: Cells=2103, MaxR=45.43, Pheno={'G_SPECIALIST': 1922, 'L_SPECIALIST': 106, 'SWITCHING_GL': 75}
+2025-05-27 18:51:27,451 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=83.00: Cells=2116, MaxR=45.43, Pheno={'G_SPECIALIST': 1928, 'L_SPECIALIST': 113, 'SWITCHING_GL': 75}
+2025-05-27 18:51:27,587 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=84.00: Cells=2132, MaxR=45.43, Pheno={'G_SPECIALIST': 1930, 'L_SPECIALIST': 126, 'SWITCHING_GL': 76}
+2025-05-27 18:51:27,723 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=85.00: Cells=2149, MaxR=45.43, Pheno={'G_SPECIALIST': 1934, 'L_SPECIALIST': 138, 'SWITCHING_GL': 77}
+2025-05-27 18:51:27,870 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=86.00: Cells=2164, MaxR=45.92, Pheno={'G_SPECIALIST': 1937, 'L_SPECIALIST': 149, 'SWITCHING_GL': 78}
+2025-05-27 18:51:28,011 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=87.00: Cells=2176, MaxR=45.92, Pheno={'G_SPECIALIST': 1940, 'L_SPECIALIST': 158, 'SWITCHING_GL': 78}
+2025-05-27 18:51:28,153 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=88.00: Cells=2185, MaxR=47.84, Pheno={'G_SPECIALIST': 1940, 'L_SPECIALIST': 170, 'SWITCHING_GL': 75}
+2025-05-27 18:51:28,292 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=89.00: Cells=2195, MaxR=47.84, Pheno={'G_SPECIALIST': 1940, 'L_SPECIALIST': 184, 'SWITCHING_GL': 71}
+2025-05-27 18:51:28,410 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=90.00, Cells=2209
+2025-05-27 18:51:28,433 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=90.00: Cells=2211, MaxR=47.84, Pheno={'G_SPECIALIST': 1943, 'L_SPECIALIST': 203, 'SWITCHING_GL': 65}
+2025-05-27 18:51:28,576 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=91.00: Cells=2228, MaxR=47.84, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 225, 'SWITCHING_GL': 59}
+2025-05-27 18:51:28,715 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=92.00: Cells=2247, MaxR=47.84, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 252, 'SWITCHING_GL': 51}
+2025-05-27 18:51:28,861 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=93.00: Cells=2272, MaxR=48.87, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 285, 'SWITCHING_GL': 43}
+2025-05-27 18:51:29,008 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=94.00: Cells=2289, MaxR=48.87, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 309, 'SWITCHING_GL': 36}
+2025-05-27 18:51:29,152 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=95.00: Cells=2308, MaxR=48.87, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 333, 'SWITCHING_GL': 31}
+2025-05-27 18:51:29,299 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=96.00: Cells=2324, MaxR=48.87, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 358, 'SWITCHING_GL': 22}
+2025-05-27 18:51:29,449 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=97.00: Cells=2348, MaxR=49.11, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 385, 'SWITCHING_GL': 19}
+2025-05-27 18:51:29,598 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=98.00: Cells=2372, MaxR=49.57, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 412, 'SWITCHING_GL': 16}
+2025-05-27 18:51:29,748 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=99.00: Cells=2393, MaxR=49.57, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 434, 'SWITCHING_GL': 15}
+2025-05-27 18:51:29,875 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=100.00, Cells=2417
+2025-05-27 18:51:29,901 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=100.00: Cells=2419, MaxR=49.57, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 461, 'SWITCHING_GL': 14}
+2025-05-27 18:51:30,068 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=101.00: Cells=2447, MaxR=50.59, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 491, 'SWITCHING_GL': 11}
+2025-05-27 18:51:30,232 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=102.00: Cells=2470, MaxR=50.59, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 517, 'SWITCHING_GL': 8}
+2025-05-27 18:51:30,397 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=103.00: Cells=2499, MaxR=51.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 545, 'SWITCHING_GL': 9}
+2025-05-27 18:51:30,574 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=104.00: Cells=2536, MaxR=51.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 582, 'SWITCHING_GL': 9}
+2025-05-27 18:51:30,766 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=105.00: Cells=2572, MaxR=51.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 618, 'SWITCHING_GL': 9}
+2025-05-27 18:51:30,943 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=106.00: Cells=2591, MaxR=51.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 638, 'SWITCHING_GL': 8}
+2025-05-27 18:51:31,124 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=107.00: Cells=2607, MaxR=52.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 655, 'SWITCHING_GL': 7}
+2025-05-27 18:51:31,305 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=108.00: Cells=2635, MaxR=53.08, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 686, 'SWITCHING_GL': 4}
+2025-05-27 18:51:31,478 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=109.00: Cells=2659, MaxR=53.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 711, 'SWITCHING_GL': 3}
+2025-05-27 18:51:31,624 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=110.00, Cells=2682
+2025-05-27 18:51:31,654 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=110.00: Cells=2683, MaxR=53.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 735, 'SWITCHING_GL': 3}
+2025-05-27 18:51:31,833 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=111.00: Cells=2706, MaxR=53.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 758, 'SWITCHING_GL': 3}
+2025-05-27 18:51:32,021 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=112.00: Cells=2733, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 787, 'SWITCHING_GL': 1}
+2025-05-27 18:51:32,223 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=113.00: Cells=2767, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 821, 'SWITCHING_GL': 1}
+2025-05-27 18:51:32,476 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=114.00: Cells=2798, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 852, 'SWITCHING_GL': 1}
+2025-05-27 18:51:32,670 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=115.00: Cells=2821, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 875, 'SWITCHING_GL': 1}
+2025-05-27 18:51:32,859 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=116.00: Cells=2851, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 905, 'SWITCHING_GL': 1}
+2025-05-27 18:51:33,058 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=117.00: Cells=2876, MaxR=55.07, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 930, 'SWITCHING_GL': 1}
+2025-05-27 18:51:33,252 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=118.00: Cells=2909, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 963, 'SWITCHING_GL': 1}
+2025-05-27 18:51:33,446 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=119.00: Cells=2934, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 988, 'SWITCHING_GL': 1}
+2025-05-27 18:51:33,624 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=120.00, Cells=2963
+2025-05-27 18:51:33,658 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=120.00: Cells=2963, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1017, 'SWITCHING_GL': 1}
+2025-05-27 18:51:33,862 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=121.00: Cells=2984, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1038, 'SWITCHING_GL': 1}
+2025-05-27 18:51:34,073 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=122.00: Cells=3003, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1057, 'SWITCHING_GL': 1}
+2025-05-27 18:51:34,280 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=123.00: Cells=3037, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1091, 'SWITCHING_GL': 1}
+2025-05-27 18:51:34,487 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=124.00: Cells=3070, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1125, 'SWITCHING_GL': 0}
+2025-05-27 18:51:34,730 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=125.00: Cells=3100, MaxR=57.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1155, 'SWITCHING_GL': 0}
+2025-05-27 18:51:34,939 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=126.00: Cells=3133, MaxR=57.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1188, 'SWITCHING_GL': 0}
+2025-05-27 18:51:35,148 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=127.00: Cells=3155, MaxR=57.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1210, 'SWITCHING_GL': 0}
+2025-05-27 18:51:35,379 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=128.00: Cells=3178, MaxR=57.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1233, 'SWITCHING_GL': 0}
+2025-05-27 18:51:35,590 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=129.00: Cells=3207, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1262, 'SWITCHING_GL': 0}
+2025-05-27 18:51:35,768 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=130.00, Cells=3238
+2025-05-27 18:51:35,804 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=130.00: Cells=3242, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1297, 'SWITCHING_GL': 0}
+2025-05-27 18:51:36,020 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=131.00: Cells=3273, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1328, 'SWITCHING_GL': 0}
+2025-05-27 18:51:36,238 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=132.00: Cells=3301, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1356, 'SWITCHING_GL': 0}
+2025-05-27 18:51:36,463 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=133.00: Cells=3331, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1386, 'SWITCHING_GL': 0}
+2025-05-27 18:51:36,712 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=134.00: Cells=3372, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1427, 'SWITCHING_GL': 0}
+2025-05-27 18:51:36,947 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=135.00: Cells=3406, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1461, 'SWITCHING_GL': 0}
+2025-05-27 18:51:37,187 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=136.00: Cells=3435, MaxR=58.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1490, 'SWITCHING_GL': 0}
+2025-05-27 18:51:37,418 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=137.00: Cells=3458, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1513, 'SWITCHING_GL': 0}
+2025-05-27 18:51:37,652 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=138.00: Cells=3489, MaxR=60.62, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1544, 'SWITCHING_GL': 0}
+2025-05-27 18:51:37,884 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=139.00: Cells=3522, MaxR=60.62, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1577, 'SWITCHING_GL': 0}
+2025-05-27 18:51:38,078 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=140.00, Cells=3543
+2025-05-27 18:51:38,119 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=140.00: Cells=3545, MaxR=60.62, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1600, 'SWITCHING_GL': 0}
+2025-05-27 18:51:38,355 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=141.00: Cells=3578, MaxR=60.62, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1633, 'SWITCHING_GL': 0}
+2025-05-27 18:51:38,599 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=142.00: Cells=3606, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1661, 'SWITCHING_GL': 0}
+2025-05-27 18:51:38,855 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=143.00: Cells=3635, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1690, 'SWITCHING_GL': 0}
+2025-05-27 18:51:39,098 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=144.00: Cells=3664, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1719, 'SWITCHING_GL': 0}
+2025-05-27 18:51:39,342 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=145.00: Cells=3694, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1749, 'SWITCHING_GL': 0}
+2025-05-27 18:51:39,593 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=146.00: Cells=3727, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1782, 'SWITCHING_GL': 0}
+2025-05-27 18:51:39,847 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=147.00: Cells=3760, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1815, 'SWITCHING_GL': 0}
+2025-05-27 18:51:40,117 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=148.00: Cells=3802, MaxR=61.99, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1857, 'SWITCHING_GL': 0}
+2025-05-27 18:51:40,373 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=149.00: Cells=3846, MaxR=61.99, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1901, 'SWITCHING_GL': 0}
+2025-05-27 18:51:40,599 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=150.00, Cells=3875
+2025-05-27 18:51:40,644 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=150.00: Cells=3880, MaxR=62.23, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1935, 'SWITCHING_GL': 0}
+2025-05-27 18:51:40,907 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=151.00: Cells=3916, MaxR=62.23, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1971, 'SWITCHING_GL': 0}
+2025-05-27 18:51:41,225 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=152.00: Cells=3952, MaxR=63.24, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2007, 'SWITCHING_GL': 0}
+2025-05-27 18:51:41,487 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=153.00: Cells=3973, MaxR=63.24, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2028, 'SWITCHING_GL': 0}
+2025-05-27 18:51:41,754 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=154.00: Cells=4007, MaxR=63.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2062, 'SWITCHING_GL': 0}
+2025-05-27 18:51:42,020 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=155.00: Cells=4030, MaxR=64.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2085, 'SWITCHING_GL': 0}
+2025-05-27 18:51:42,285 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=156.00: Cells=4058, MaxR=64.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2113, 'SWITCHING_GL': 0}
+2025-05-27 18:51:42,573 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=157.00: Cells=4092, MaxR=64.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2147, 'SWITCHING_GL': 0}
+2025-05-27 18:51:42,853 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=158.00: Cells=4123, MaxR=64.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2178, 'SWITCHING_GL': 0}
+2025-05-27 18:51:43,164 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=159.00: Cells=4155, MaxR=66.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2210, 'SWITCHING_GL': 0}
+2025-05-27 18:51:43,396 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=160.00, Cells=4186
+2025-05-27 18:51:43,442 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=160.00: Cells=4187, MaxR=66.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2242, 'SWITCHING_GL': 0}
+2025-05-27 18:51:43,721 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=161.00: Cells=4223, MaxR=66.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2278, 'SWITCHING_GL': 0}
+2025-05-27 18:51:43,999 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=162.00: Cells=4258, MaxR=66.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2313, 'SWITCHING_GL': 0}
+2025-05-27 18:51:44,292 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=163.00: Cells=4287, MaxR=66.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2342, 'SWITCHING_GL': 0}
+2025-05-27 18:51:44,608 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=164.00: Cells=4317, MaxR=66.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2372, 'SWITCHING_GL': 0}
+2025-05-27 18:51:44,943 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=165.00: Cells=4365, MaxR=66.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2420, 'SWITCHING_GL': 0}
+2025-05-27 18:51:45,248 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=166.00: Cells=4401, MaxR=67.55, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2456, 'SWITCHING_GL': 0}
+2025-05-27 18:51:45,549 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=167.00: Cells=4447, MaxR=67.55, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2502, 'SWITCHING_GL': 0}
+2025-05-27 18:51:45,864 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=168.00: Cells=4492, MaxR=67.55, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2547, 'SWITCHING_GL': 0}
+2025-05-27 18:51:46,186 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=169.00: Cells=4535, MaxR=67.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2590, 'SWITCHING_GL': 0}
+2025-05-27 18:51:46,436 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=170.00, Cells=4562
+2025-05-27 18:51:46,491 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=170.00: Cells=4564, MaxR=67.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2619, 'SWITCHING_GL': 0}
+2025-05-27 18:51:46,796 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=171.00: Cells=4611, MaxR=67.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2666, 'SWITCHING_GL': 0}
+2025-05-27 18:51:47,128 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=172.00: Cells=4653, MaxR=67.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2708, 'SWITCHING_GL': 0}
+2025-05-27 18:51:47,441 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=173.00: Cells=4686, MaxR=67.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2741, 'SWITCHING_GL': 0}
+2025-05-27 18:51:47,776 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=174.00: Cells=4723, MaxR=67.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2778, 'SWITCHING_GL': 0}
+2025-05-27 18:51:48,090 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=175.00: Cells=4752, MaxR=68.74, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2807, 'SWITCHING_GL': 0}
+2025-05-27 18:51:48,407 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=176.00: Cells=4785, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2840, 'SWITCHING_GL': 0}
+2025-05-27 18:51:48,734 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=177.00: Cells=4813, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2868, 'SWITCHING_GL': 0}
+2025-05-27 18:51:49,070 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=178.00: Cells=4849, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2904, 'SWITCHING_GL': 0}
+2025-05-27 18:51:49,400 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=179.00: Cells=4896, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2951, 'SWITCHING_GL': 0}
+2025-05-27 18:51:49,675 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=180.00, Cells=4940
+2025-05-27 18:51:49,730 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=180.00: Cells=4943, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2998, 'SWITCHING_GL': 0}
+2025-05-27 18:51:50,060 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=181.00: Cells=4981, MaxR=69.35, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3036, 'SWITCHING_GL': 0}
+2025-05-27 18:51:50,395 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=182.00: Cells=5016, MaxR=70.93, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3071, 'SWITCHING_GL': 0}
+2025-05-27 18:51:50,727 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=183.00: Cells=5046, MaxR=70.93, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3101, 'SWITCHING_GL': 0}
+2025-05-27 18:51:51,062 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=184.00: Cells=5084, MaxR=70.93, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3139, 'SWITCHING_GL': 0}
+2025-05-27 18:51:51,466 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=185.00: Cells=5130, MaxR=72.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3185, 'SWITCHING_GL': 0}
+2025-05-27 18:51:51,871 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=186.00: Cells=5174, MaxR=72.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3229, 'SWITCHING_GL': 0}
+2025-05-27 18:51:52,251 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=187.00: Cells=5208, MaxR=72.39, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3263, 'SWITCHING_GL': 0}
+2025-05-27 18:51:52,615 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=188.00: Cells=5257, MaxR=72.39, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3312, 'SWITCHING_GL': 0}
+2025-05-27 18:51:52,973 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=189.00: Cells=5297, MaxR=72.39, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3352, 'SWITCHING_GL': 0}
+2025-05-27 18:51:53,266 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=190.00, Cells=5332
+2025-05-27 18:51:53,326 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=190.00: Cells=5339, MaxR=73.67, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3394, 'SWITCHING_GL': 0}
+2025-05-27 18:51:53,685 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=191.00: Cells=5388, MaxR=73.67, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3443, 'SWITCHING_GL': 0}
+2025-05-27 18:51:54,060 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=192.00: Cells=5427, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3482, 'SWITCHING_GL': 0}
+2025-05-27 18:51:54,427 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=193.00: Cells=5468, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3523, 'SWITCHING_GL': 0}
+2025-05-27 18:51:54,829 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=194.00: Cells=5512, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3567, 'SWITCHING_GL': 0}
+2025-05-27 18:51:55,279 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=195.00: Cells=5542, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3597, 'SWITCHING_GL': 0}
+2025-05-27 18:51:55,651 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=196.00: Cells=5586, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3641, 'SWITCHING_GL': 0}
+2025-05-27 18:51:56,026 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=197.00: Cells=5626, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3681, 'SWITCHING_GL': 0}
+2025-05-27 18:51:56,415 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=198.00: Cells=5665, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3720, 'SWITCHING_GL': 0}
+2025-05-27 18:51:56,796 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=199.00: Cells=5712, MaxR=76.60, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3767, 'SWITCHING_GL': 0}
+2025-05-27 18:51:57,114 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:218 - Progress: T=200.00, Cells=5740
+2025-05-27 18:51:57,179 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=200.00: Cells=5744, MaxR=76.60, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3799, 'SWITCHING_GL': 0}
+2025-05-27 18:51:57,214 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:238 - Sim run finished: ResponsiveHG_W40_Rep2. Wall-clock: 34.081s.
+2025-05-27 18:51:57,214 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:241 - Final state: SimTime=200.10, Steps=2001, Cells=5748.
+2025-05-27 18:51:57,214 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:300 - Finalizing data collection and exporting results...
+2025-05-27 18:51:57,215 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:312 - --- Simulation Summary (Log) ---
+time: 199.99999999999292
+total_cell_count: 5744
+phenotype_counts: {'G_SPECIALIST': 1945, 'L_SPECIALIST': 3799, 'SWITCHING_GL': 0}
+avg_radial_distance: 46.10678967254691
+max_radial_distance: 76.60287200882223
+min_radial_distance: 0.0
+std_dev_radial_distance: 16.466469614917035
+median_radial_distance: 48.774993593028796
+frontier_lag_G_to_L: (details in files)
+frontier_traits: (details in files)
+overall_radial_expansion_velocity: 0.37435410600628
+config_exp_name: ResponsiveHG_W40_Rep2
+
+2025-05-27 18:51:57,241 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:242 - Time series data exported to results\ResponsiveHG_W40_Rep2\time_series_data.csv
+2025-05-27 18:51:57,243 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:267 - Summary data exported to results\ResponsiveHG_W40_Rep2\summary.json
+2025-05-27 18:51:57,243 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:275 - No kymograph data to export.
+2025-05-27 18:51:57,243 - sim.ResponsiveHG_W40_Rep2.MetricsCollector - INFO - metrics:316 - All data export finalized for ResponsiveHG_W40_Rep2.
+2025-05-27 18:51:57,243 - sim.ResponsiveHG_W40_Rep2 - INFO - simulation_engine:276 - Simulation fully complete.

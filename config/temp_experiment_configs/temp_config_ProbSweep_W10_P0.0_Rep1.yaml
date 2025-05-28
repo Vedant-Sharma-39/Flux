@@ -1,0 +1,25 @@
+experiment_name: ProbSweep_W10_P0.0_Rep1
+simulation:
+  dt: 0.1
+  max_simulation_time: 200.0
+  initial_cell_count: 5
+  initial_colony_radius: 1.5
+environment:
+  W_band: 40.0
+strategies:
+  g_rate_prototype_1: 0.1
+  g_rate_prototype_2: 0.5
+  prob_daughter_inherits_prototype_1: 0.5
+  lambda_L_fixed_rate: 0.1
+trade_off_params:
+  T_lag_min: 1.0
+  slope: 40.0
+analysis:
+  metrics_interval_time: 1.0
+  data_output_path: results/
+visualization:
+  visualization_enabled: false
+  animation_save_path: animations/
+  animation_frame_interval: 10
+  hex_pixel_size: 10.0
+  animation_color_mode: INHERENT_LAG_GL

@@ -8,7 +8,7 @@ import shutil  # For cleaning up temp configs
 import itertools  # For creating parameter combinations
 import logging
 import numpy as np
-from typing import Tuple, Optional
+from typing import Tuple, Optional, List
 # Setup basic logging for this batch script
 logging.basicConfig(
     level=logging.INFO, format="[%(levelname)s - BATCH_RUN] %(message)s"

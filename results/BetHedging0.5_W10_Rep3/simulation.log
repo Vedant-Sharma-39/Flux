@@ -1,0 +1,247 @@
+2025-05-27 18:44:12,702 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:37 - Initializing SimulationEngine for experiment: BetHedging0.5_W10_Rep3
+2025-05-27 18:44:12,703 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:70 - Visualization disabled.
+2025-05-27 18:44:12,703 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:202 - Starting simulation: BetHedging0.5_W10_Rep3
+2025-05-27 18:44:12,703 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:204 - Colony initialized: 5 cells.
+2025-05-27 18:44:12,705 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=0.00: Cells=5, MaxR=1.73, Pheno={'G_SPECIALIST': 5, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,706 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=1.00: Cells=6, MaxR=3.00, Pheno={'G_SPECIALIST': 6, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,708 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=2.00: Cells=8, MaxR=3.46, Pheno={'G_SPECIALIST': 8, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,709 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=3.00: Cells=9, MaxR=4.58, Pheno={'G_SPECIALIST': 9, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,710 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=4.00: Cells=11, MaxR=5.20, Pheno={'G_SPECIALIST': 11, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,712 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=5.00: Cells=16, MaxR=6.93, Pheno={'G_SPECIALIST': 16, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,713 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=6.00: Cells=23, MaxR=7.94, Pheno={'G_SPECIALIST': 23, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,715 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=7.00: Cells=29, MaxR=9.17, Pheno={'G_SPECIALIST': 29, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,719 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=8.00: Cells=39, MaxR=10.54, Pheno={'G_SPECIALIST': 39, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,721 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=9.00: Cells=43, MaxR=11.36, Pheno={'G_SPECIALIST': 43, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,725 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=10.00, Cells=52
+2025-05-27 18:44:12,725 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=10.00: Cells=52, MaxR=12.12, Pheno={'G_SPECIALIST': 52, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,729 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=11.00: Cells=60, MaxR=13.08, Pheno={'G_SPECIALIST': 60, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,734 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=12.00: Cells=66, MaxR=13.08, Pheno={'G_SPECIALIST': 66, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,741 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=13.00: Cells=78, MaxR=13.86, Pheno={'G_SPECIALIST': 78, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,747 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=14.00: Cells=88, MaxR=14.80, Pheno={'G_SPECIALIST': 88, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,754 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=15.00: Cells=103, MaxR=16.52, Pheno={'G_SPECIALIST': 103, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,762 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=16.00: Cells=112, MaxR=16.52, Pheno={'G_SPECIALIST': 112, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,770 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=17.00: Cells=124, MaxR=16.52, Pheno={'G_SPECIALIST': 124, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,779 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=18.00: Cells=130, MaxR=17.58, Pheno={'G_SPECIALIST': 130, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,789 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=19.00: Cells=142, MaxR=18.73, Pheno={'G_SPECIALIST': 142, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,798 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=20.00, Cells=156
+2025-05-27 18:44:12,800 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=20.00: Cells=156, MaxR=18.73, Pheno={'G_SPECIALIST': 156, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,812 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=21.00: Cells=175, MaxR=19.29, Pheno={'G_SPECIALIST': 175, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,823 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=22.00: Cells=188, MaxR=19.97, Pheno={'G_SPECIALIST': 188, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,837 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=23.00: Cells=202, MaxR=19.97, Pheno={'G_SPECIALIST': 202, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,853 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=24.00: Cells=222, MaxR=19.97, Pheno={'G_SPECIALIST': 222, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,869 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=25.00: Cells=244, MaxR=20.42, Pheno={'G_SPECIALIST': 244, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,886 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=26.00: Cells=268, MaxR=22.72, Pheno={'G_SPECIALIST': 268, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,905 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=27.00: Cells=300, MaxR=25.16, Pheno={'G_SPECIALIST': 300, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,928 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=28.00: Cells=336, MaxR=27.87, Pheno={'G_SPECIALIST': 336, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,951 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=29.00: Cells=372, MaxR=29.60, Pheno={'G_SPECIALIST': 372, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:12,973 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=30.00, Cells=399
+2025-05-27 18:44:12,978 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=30.00: Cells=400, MaxR=29.60, Pheno={'G_SPECIALIST': 400, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,006 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=31.00: Cells=418, MaxR=29.60, Pheno={'G_SPECIALIST': 418, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,034 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=32.00: Cells=450, MaxR=30.35, Pheno={'G_SPECIALIST': 450, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,063 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=33.00: Cells=469, MaxR=30.35, Pheno={'G_SPECIALIST': 469, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,096 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=34.00: Cells=511, MaxR=30.35, Pheno={'G_SPECIALIST': 511, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,130 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=35.00: Cells=536, MaxR=30.35, Pheno={'G_SPECIALIST': 536, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,168 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=36.00: Cells=576, MaxR=30.64, Pheno={'G_SPECIALIST': 576, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,209 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=37.00: Cells=622, MaxR=32.08, Pheno={'G_SPECIALIST': 622, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,252 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=38.00: Cells=653, MaxR=32.45, Pheno={'G_SPECIALIST': 653, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,301 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=39.00: Cells=692, MaxR=33.72, Pheno={'G_SPECIALIST': 692, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,345 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=40.00, Cells=714
+2025-05-27 18:44:13,354 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=40.00: Cells=718, MaxR=33.72, Pheno={'G_SPECIALIST': 718, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,404 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=41.00: Cells=759, MaxR=33.72, Pheno={'G_SPECIALIST': 759, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,459 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=42.00: Cells=796, MaxR=34.12, Pheno={'G_SPECIALIST': 796, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,516 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=43.00: Cells=829, MaxR=35.16, Pheno={'G_SPECIALIST': 829, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,569 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=44.00: Cells=860, MaxR=35.16, Pheno={'G_SPECIALIST': 860, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,626 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=45.00: Cells=886, MaxR=36.29, Pheno={'G_SPECIALIST': 886, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,683 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=46.00: Cells=923, MaxR=36.29, Pheno={'G_SPECIALIST': 923, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,746 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=47.00: Cells=969, MaxR=37.03, Pheno={'G_SPECIALIST': 969, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,811 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=48.00: Cells=1018, MaxR=37.47, Pheno={'G_SPECIALIST': 1018, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,880 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=49.00: Cells=1062, MaxR=38.30, Pheno={'G_SPECIALIST': 1062, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:13,941 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=50.00, Cells=1103
+2025-05-27 18:44:13,953 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=50.00: Cells=1108, MaxR=39.95, Pheno={'G_SPECIALIST': 1108, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:14,037 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=51.00: Cells=1154, MaxR=39.95, Pheno={'G_SPECIALIST': 1154, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 18:44:14,116 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=52.00: Cells=1201, MaxR=40.95, Pheno={'G_SPECIALIST': 1199, 'SWITCHING_GL': 2, 'L_SPECIALIST': 0}
+2025-05-27 18:44:14,199 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=53.00: Cells=1253, MaxR=41.61, Pheno={'G_SPECIALIST': 1244, 'SWITCHING_GL': 9, 'L_SPECIALIST': 0}
+2025-05-27 18:44:14,290 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=54.00: Cells=1305, MaxR=41.61, Pheno={'G_SPECIALIST': 1293, 'SWITCHING_GL': 12, 'L_SPECIALIST': 0}
+2025-05-27 18:44:14,387 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=55.00: Cells=1355, MaxR=41.61, Pheno={'G_SPECIALIST': 1342, 'SWITCHING_GL': 13, 'L_SPECIALIST': 0}
+2025-05-27 18:44:14,493 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=56.00: Cells=1404, MaxR=41.61, Pheno={'G_SPECIALIST': 1390, 'SWITCHING_GL': 14, 'L_SPECIALIST': 0}
+2025-05-27 18:44:14,596 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=57.00: Cells=1440, MaxR=41.68, Pheno={'G_SPECIALIST': 1421, 'L_SPECIALIST': 1, 'SWITCHING_GL': 18}
+2025-05-27 18:44:14,700 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=58.00: Cells=1484, MaxR=41.68, Pheno={'G_SPECIALIST': 1459, 'L_SPECIALIST': 6, 'SWITCHING_GL': 19}
+2025-05-27 18:44:14,801 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=59.00: Cells=1523, MaxR=41.68, Pheno={'G_SPECIALIST': 1492, 'L_SPECIALIST': 8, 'SWITCHING_GL': 23}
+2025-05-27 18:44:14,886 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=60.00, Cells=1544
+2025-05-27 18:44:14,903 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=60.00: Cells=1544, MaxR=43.92, Pheno={'G_SPECIALIST': 1507, 'L_SPECIALIST': 10, 'SWITCHING_GL': 27}
+2025-05-27 18:44:15,008 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=61.00: Cells=1581, MaxR=45.30, Pheno={'G_SPECIALIST': 1535, 'L_SPECIALIST': 12, 'SWITCHING_GL': 34}
+2025-05-27 18:44:15,111 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=62.00: Cells=1623, MaxR=45.30, Pheno={'G_SPECIALIST': 1574, 'L_SPECIALIST': 15, 'SWITCHING_GL': 34}
+2025-05-27 18:44:15,216 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=63.00: Cells=1667, MaxR=45.30, Pheno={'G_SPECIALIST': 1612, 'L_SPECIALIST': 17, 'SWITCHING_GL': 38}
+2025-05-27 18:44:15,320 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=64.00: Cells=1702, MaxR=45.53, Pheno={'G_SPECIALIST': 1642, 'L_SPECIALIST': 20, 'SWITCHING_GL': 40}
+2025-05-27 18:44:15,432 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=65.00: Cells=1743, MaxR=45.53, Pheno={'G_SPECIALIST': 1673, 'L_SPECIALIST': 25, 'SWITCHING_GL': 45}
+2025-05-27 18:44:15,546 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=66.00: Cells=1776, MaxR=45.53, Pheno={'G_SPECIALIST': 1701, 'L_SPECIALIST': 29, 'SWITCHING_GL': 46}
+2025-05-27 18:44:15,662 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=67.00: Cells=1820, MaxR=45.53, Pheno={'G_SPECIALIST': 1737, 'L_SPECIALIST': 32, 'SWITCHING_GL': 51}
+2025-05-27 18:44:15,781 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=68.00: Cells=1850, MaxR=45.53, Pheno={'G_SPECIALIST': 1758, 'L_SPECIALIST': 39, 'SWITCHING_GL': 53}
+2025-05-27 18:44:15,902 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=69.00: Cells=1883, MaxR=45.53, Pheno={'G_SPECIALIST': 1783, 'L_SPECIALIST': 47, 'SWITCHING_GL': 53}
+2025-05-27 18:44:16,006 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=70.00, Cells=1907
+2025-05-27 18:44:16,026 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=70.00: Cells=1913, MaxR=46.89, Pheno={'G_SPECIALIST': 1797, 'L_SPECIALIST': 56, 'SWITCHING_GL': 60}
+2025-05-27 18:44:16,152 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=71.00: Cells=1947, MaxR=46.89, Pheno={'G_SPECIALIST': 1818, 'L_SPECIALIST': 64, 'SWITCHING_GL': 65}
+2025-05-27 18:44:16,275 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=72.00: Cells=1977, MaxR=46.89, Pheno={'G_SPECIALIST': 1836, 'L_SPECIALIST': 72, 'SWITCHING_GL': 69}
+2025-05-27 18:44:16,399 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=73.00: Cells=1998, MaxR=48.50, Pheno={'G_SPECIALIST': 1849, 'L_SPECIALIST': 82, 'SWITCHING_GL': 67}
+2025-05-27 18:44:16,525 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=74.00: Cells=2020, MaxR=48.50, Pheno={'G_SPECIALIST': 1857, 'L_SPECIALIST': 94, 'SWITCHING_GL': 69}
+2025-05-27 18:44:16,655 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=75.00: Cells=2038, MaxR=48.50, Pheno={'G_SPECIALIST': 1865, 'L_SPECIALIST': 105, 'SWITCHING_GL': 68}
+2025-05-27 18:44:16,781 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=76.00: Cells=2059, MaxR=48.50, Pheno={'G_SPECIALIST': 1875, 'L_SPECIALIST': 115, 'SWITCHING_GL': 69}
+2025-05-27 18:44:16,911 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=77.00: Cells=2085, MaxR=48.50, Pheno={'G_SPECIALIST': 1887, 'L_SPECIALIST': 130, 'SWITCHING_GL': 68}
+2025-05-27 18:44:17,043 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=78.00: Cells=2107, MaxR=48.50, Pheno={'G_SPECIALIST': 1894, 'L_SPECIALIST': 144, 'SWITCHING_GL': 69}
+2025-05-27 18:44:17,175 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=79.00: Cells=2132, MaxR=48.77, Pheno={'G_SPECIALIST': 1903, 'L_SPECIALIST': 162, 'SWITCHING_GL': 67}
+2025-05-27 18:44:17,287 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=80.00, Cells=2156
+2025-05-27 18:44:17,309 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=80.00: Cells=2163, MaxR=48.77, Pheno={'G_SPECIALIST': 1910, 'L_SPECIALIST': 190, 'SWITCHING_GL': 63}
+2025-05-27 18:44:17,446 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=81.00: Cells=2184, MaxR=48.77, Pheno={'G_SPECIALIST': 1916, 'L_SPECIALIST': 206, 'SWITCHING_GL': 62}
+2025-05-27 18:44:17,585 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=82.00: Cells=2211, MaxR=48.77, Pheno={'G_SPECIALIST': 1925, 'L_SPECIALIST': 229, 'SWITCHING_GL': 57}
+2025-05-27 18:44:17,724 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=83.00: Cells=2229, MaxR=48.77, Pheno={'G_SPECIALIST': 1931, 'L_SPECIALIST': 243, 'SWITCHING_GL': 55}
+2025-05-27 18:44:17,865 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=84.00: Cells=2261, MaxR=50.11, Pheno={'G_SPECIALIST': 1937, 'L_SPECIALIST': 270, 'SWITCHING_GL': 54}
+2025-05-27 18:44:18,012 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=85.00: Cells=2288, MaxR=50.11, Pheno={'G_SPECIALIST': 1943, 'L_SPECIALIST': 290, 'SWITCHING_GL': 55}
+2025-05-27 18:44:18,160 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=86.00: Cells=2309, MaxR=50.11, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 311, 'SWITCHING_GL': 53}
+2025-05-27 18:44:18,308 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=87.00: Cells=2321, MaxR=50.11, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 327, 'SWITCHING_GL': 49}
+2025-05-27 18:44:18,456 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=88.00: Cells=2341, MaxR=50.11, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 348, 'SWITCHING_GL': 48}
+2025-05-27 18:44:18,604 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=89.00: Cells=2355, MaxR=50.11, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 363, 'SWITCHING_GL': 47}
+2025-05-27 18:44:18,732 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=90.00, Cells=2372
+2025-05-27 18:44:18,758 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=90.00: Cells=2376, MaxR=50.11, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 385, 'SWITCHING_GL': 46}
+2025-05-27 18:44:18,910 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=91.00: Cells=2401, MaxR=50.76, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 417, 'SWITCHING_GL': 39}
+2025-05-27 18:44:19,065 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=92.00: Cells=2422, MaxR=51.18, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 442, 'SWITCHING_GL': 35}
+2025-05-27 18:44:19,225 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=93.00: Cells=2449, MaxR=51.18, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 472, 'SWITCHING_GL': 32}
+2025-05-27 18:44:19,408 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=94.00: Cells=2470, MaxR=51.18, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 496, 'SWITCHING_GL': 29}
+2025-05-27 18:44:19,572 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=95.00: Cells=2497, MaxR=51.18, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 528, 'SWITCHING_GL': 24}
+2025-05-27 18:44:19,757 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=96.00: Cells=2525, MaxR=51.73, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 558, 'SWITCHING_GL': 22}
+2025-05-27 18:44:19,935 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=97.00: Cells=2548, MaxR=52.05, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 585, 'SWITCHING_GL': 18}
+2025-05-27 18:44:20,118 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=98.00: Cells=2571, MaxR=52.42, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 609, 'SWITCHING_GL': 17}
+2025-05-27 18:44:20,296 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=99.00: Cells=2595, MaxR=52.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 637, 'SWITCHING_GL': 13}
+2025-05-27 18:44:20,463 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=100.00, Cells=2614
+2025-05-27 18:44:20,492 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=100.00: Cells=2617, MaxR=53.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 662, 'SWITCHING_GL': 10}
+2025-05-27 18:44:20,684 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=101.00: Cells=2658, MaxR=53.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 703, 'SWITCHING_GL': 10}
+2025-05-27 18:44:20,910 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=102.00: Cells=2678, MaxR=53.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 724, 'SWITCHING_GL': 9}
+2025-05-27 18:44:21,094 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=103.00: Cells=2692, MaxR=53.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 739, 'SWITCHING_GL': 8}
+2025-05-27 18:44:21,273 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=104.00: Cells=2718, MaxR=54.25, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 765, 'SWITCHING_GL': 8}
+2025-05-27 18:44:21,453 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=105.00: Cells=2742, MaxR=55.75, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 791, 'SWITCHING_GL': 6}
+2025-05-27 18:44:21,635 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=106.00: Cells=2774, MaxR=56.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 826, 'SWITCHING_GL': 3}
+2025-05-27 18:44:21,825 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=107.00: Cells=2803, MaxR=56.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 856, 'SWITCHING_GL': 2}
+2025-05-27 18:44:22,011 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=108.00: Cells=2836, MaxR=56.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 889, 'SWITCHING_GL': 2}
+2025-05-27 18:44:22,199 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=109.00: Cells=2873, MaxR=56.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 927, 'SWITCHING_GL': 1}
+2025-05-27 18:44:22,362 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=110.00, Cells=2901
+2025-05-27 18:44:22,393 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=110.00: Cells=2904, MaxR=56.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 958, 'SWITCHING_GL': 1}
+2025-05-27 18:44:22,586 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=111.00: Cells=2936, MaxR=57.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 990, 'SWITCHING_GL': 1}
+2025-05-27 18:44:22,782 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=112.00: Cells=2964, MaxR=57.00, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1018, 'SWITCHING_GL': 1}
+2025-05-27 18:44:22,979 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=113.00: Cells=2990, MaxR=57.42, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1044, 'SWITCHING_GL': 1}
+2025-05-27 18:44:23,174 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=114.00: Cells=3017, MaxR=57.42, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1071, 'SWITCHING_GL': 1}
+2025-05-27 18:44:23,379 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=115.00: Cells=3039, MaxR=57.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1093, 'SWITCHING_GL': 1}
+2025-05-27 18:44:23,580 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=116.00: Cells=3071, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1125, 'SWITCHING_GL': 1}
+2025-05-27 18:44:23,790 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=117.00: Cells=3102, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1157, 'SWITCHING_GL': 0}
+2025-05-27 18:44:24,026 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=118.00: Cells=3127, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1182, 'SWITCHING_GL': 0}
+2025-05-27 18:44:24,235 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=119.00: Cells=3144, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1199, 'SWITCHING_GL': 0}
+2025-05-27 18:44:24,410 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=120.00, Cells=3172
+2025-05-27 18:44:24,446 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=120.00: Cells=3174, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1229, 'SWITCHING_GL': 0}
+2025-05-27 18:44:24,699 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=121.00: Cells=3195, MaxR=59.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1250, 'SWITCHING_GL': 0}
+2025-05-27 18:44:24,951 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=122.00: Cells=3224, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1279, 'SWITCHING_GL': 0}
+2025-05-27 18:44:25,188 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=123.00: Cells=3247, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1302, 'SWITCHING_GL': 0}
+2025-05-27 18:44:25,435 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=124.00: Cells=3278, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1333, 'SWITCHING_GL': 0}
+2025-05-27 18:44:25,654 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=125.00: Cells=3303, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1358, 'SWITCHING_GL': 0}
+2025-05-27 18:44:25,893 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=126.00: Cells=3337, MaxR=59.27, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1392, 'SWITCHING_GL': 0}
+2025-05-27 18:44:26,142 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=127.00: Cells=3375, MaxR=59.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1430, 'SWITCHING_GL': 0}
+2025-05-27 18:44:26,412 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=128.00: Cells=3408, MaxR=59.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1463, 'SWITCHING_GL': 0}
+2025-05-27 18:44:26,657 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=129.00: Cells=3443, MaxR=60.62, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1498, 'SWITCHING_GL': 0}
+2025-05-27 18:44:26,892 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=130.00, Cells=3473
+2025-05-27 18:44:26,939 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=130.00: Cells=3477, MaxR=60.89, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1532, 'SWITCHING_GL': 0}
+2025-05-27 18:44:27,211 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=131.00: Cells=3512, MaxR=60.89, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1567, 'SWITCHING_GL': 0}
+2025-05-27 18:44:27,456 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=132.00: Cells=3546, MaxR=60.89, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1601, 'SWITCHING_GL': 0}
+2025-05-27 18:44:27,704 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=133.00: Cells=3573, MaxR=61.58, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1628, 'SWITCHING_GL': 0}
+2025-05-27 18:44:27,960 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=134.00: Cells=3599, MaxR=61.58, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1654, 'SWITCHING_GL': 0}
+2025-05-27 18:44:28,206 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=135.00: Cells=3636, MaxR=62.52, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1691, 'SWITCHING_GL': 0}
+2025-05-27 18:44:28,473 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=136.00: Cells=3662, MaxR=62.52, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1717, 'SWITCHING_GL': 0}
+2025-05-27 18:44:28,733 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=137.00: Cells=3688, MaxR=62.86, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1743, 'SWITCHING_GL': 0}
+2025-05-27 18:44:28,986 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=138.00: Cells=3706, MaxR=62.86, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1761, 'SWITCHING_GL': 0}
+2025-05-27 18:44:29,246 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=139.00: Cells=3738, MaxR=62.86, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1793, 'SWITCHING_GL': 0}
+2025-05-27 18:44:29,486 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=140.00, Cells=3767
+2025-05-27 18:44:29,528 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=140.00: Cells=3769, MaxR=62.86, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1824, 'SWITCHING_GL': 0}
+2025-05-27 18:44:29,798 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=141.00: Cells=3792, MaxR=63.10, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1847, 'SWITCHING_GL': 0}
+2025-05-27 18:44:30,059 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=142.00: Cells=3820, MaxR=63.24, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1875, 'SWITCHING_GL': 0}
+2025-05-27 18:44:30,315 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=143.00: Cells=3849, MaxR=63.24, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1904, 'SWITCHING_GL': 0}
+2025-05-27 18:44:30,581 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=144.00: Cells=3886, MaxR=63.59, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1941, 'SWITCHING_GL': 0}
+2025-05-27 18:44:30,844 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=145.00: Cells=3917, MaxR=63.59, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1972, 'SWITCHING_GL': 0}
+2025-05-27 18:44:31,132 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=146.00: Cells=3947, MaxR=63.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2002, 'SWITCHING_GL': 0}
+2025-05-27 18:44:31,494 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=147.00: Cells=3982, MaxR=63.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2037, 'SWITCHING_GL': 0}
+2025-05-27 18:44:31,851 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=148.00: Cells=4022, MaxR=63.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2077, 'SWITCHING_GL': 0}
+2025-05-27 18:44:32,147 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=149.00: Cells=4060, MaxR=63.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2115, 'SWITCHING_GL': 0}
+2025-05-27 18:44:32,396 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=150.00, Cells=4091
+2025-05-27 18:44:32,441 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=150.00: Cells=4094, MaxR=64.16, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2149, 'SWITCHING_GL': 0}
+2025-05-27 18:44:32,775 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=151.00: Cells=4126, MaxR=64.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2181, 'SWITCHING_GL': 0}
+2025-05-27 18:44:33,055 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=152.00: Cells=4160, MaxR=64.51, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2215, 'SWITCHING_GL': 0}
+2025-05-27 18:44:33,342 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=153.00: Cells=4194, MaxR=64.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2249, 'SWITCHING_GL': 0}
+2025-05-27 18:44:33,642 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=154.00: Cells=4234, MaxR=64.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2289, 'SWITCHING_GL': 0}
+2025-05-27 18:44:33,934 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=155.00: Cells=4279, MaxR=64.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2334, 'SWITCHING_GL': 0}
+2025-05-27 18:44:34,239 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=156.00: Cells=4316, MaxR=65.48, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2371, 'SWITCHING_GL': 0}
+2025-05-27 18:44:34,559 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=157.00: Cells=4339, MaxR=65.48, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2394, 'SWITCHING_GL': 0}
+2025-05-27 18:44:34,858 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=158.00: Cells=4383, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2438, 'SWITCHING_GL': 0}
+2025-05-27 18:44:35,166 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=159.00: Cells=4410, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2465, 'SWITCHING_GL': 0}
+2025-05-27 18:44:35,412 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=160.00, Cells=4439
+2025-05-27 18:44:35,463 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=160.00: Cells=4442, MaxR=66.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2497, 'SWITCHING_GL': 0}
+2025-05-27 18:44:35,768 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=161.00: Cells=4463, MaxR=67.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2518, 'SWITCHING_GL': 0}
+2025-05-27 18:44:36,072 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=162.00: Cells=4499, MaxR=67.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2554, 'SWITCHING_GL': 0}
+2025-05-27 18:44:36,385 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=163.00: Cells=4536, MaxR=68.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2591, 'SWITCHING_GL': 0}
+2025-05-27 18:44:36,699 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=164.00: Cells=4568, MaxR=68.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2623, 'SWITCHING_GL': 0}
+2025-05-27 18:44:37,030 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=165.00: Cells=4600, MaxR=68.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2655, 'SWITCHING_GL': 0}
+2025-05-27 18:44:37,355 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=166.00: Cells=4646, MaxR=70.06, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2701, 'SWITCHING_GL': 0}
+2025-05-27 18:44:37,678 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=167.00: Cells=4687, MaxR=70.06, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2742, 'SWITCHING_GL': 0}
+2025-05-27 18:44:38,024 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=168.00: Cells=4724, MaxR=71.39, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2779, 'SWITCHING_GL': 0}
+2025-05-27 18:44:38,395 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=169.00: Cells=4766, MaxR=71.39, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2821, 'SWITCHING_GL': 0}
+2025-05-27 18:44:38,680 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=170.00, Cells=4798
+2025-05-27 18:44:38,734 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=170.00: Cells=4803, MaxR=71.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2858, 'SWITCHING_GL': 0}
+2025-05-27 18:44:39,063 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=171.00: Cells=4860, MaxR=71.69, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2915, 'SWITCHING_GL': 0}
+2025-05-27 18:44:39,408 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=172.00: Cells=4895, MaxR=73.32, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2950, 'SWITCHING_GL': 0}
+2025-05-27 18:44:39,761 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=173.00: Cells=4926, MaxR=74.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2981, 'SWITCHING_GL': 0}
+2025-05-27 18:44:40,101 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=174.00: Cells=4972, MaxR=74.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3027, 'SWITCHING_GL': 0}
+2025-05-27 18:44:40,433 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=175.00: Cells=5000, MaxR=74.36, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3055, 'SWITCHING_GL': 0}
+2025-05-27 18:44:40,780 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=176.00: Cells=5043, MaxR=74.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3098, 'SWITCHING_GL': 0}
+2025-05-27 18:44:41,136 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=177.00: Cells=5085, MaxR=74.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3140, 'SWITCHING_GL': 0}
+2025-05-27 18:44:41,483 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=178.00: Cells=5121, MaxR=74.96, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3176, 'SWITCHING_GL': 0}
+2025-05-27 18:44:41,836 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=179.00: Cells=5162, MaxR=75.32, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3217, 'SWITCHING_GL': 0}
+2025-05-27 18:44:42,124 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=180.00, Cells=5192
+2025-05-27 18:44:42,182 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=180.00: Cells=5196, MaxR=75.32, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3251, 'SWITCHING_GL': 0}
+2025-05-27 18:44:42,548 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=181.00: Cells=5234, MaxR=75.32, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3289, 'SWITCHING_GL': 0}
+2025-05-27 18:44:42,903 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=182.00: Cells=5272, MaxR=75.32, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3327, 'SWITCHING_GL': 0}
+2025-05-27 18:44:43,257 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=183.00: Cells=5320, MaxR=75.72, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3375, 'SWITCHING_GL': 0}
+2025-05-27 18:44:43,612 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=184.00: Cells=5349, MaxR=76.15, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3404, 'SWITCHING_GL': 0}
+2025-05-27 18:44:43,979 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=185.00: Cells=5383, MaxR=76.15, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3438, 'SWITCHING_GL': 0}
+2025-05-27 18:44:44,345 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=186.00: Cells=5423, MaxR=76.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3478, 'SWITCHING_GL': 0}
+2025-05-27 18:44:44,716 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=187.00: Cells=5463, MaxR=76.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3518, 'SWITCHING_GL': 0}
+2025-05-27 18:44:45,124 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=188.00: Cells=5499, MaxR=76.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3554, 'SWITCHING_GL': 0}
+2025-05-27 18:44:45,496 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=189.00: Cells=5537, MaxR=76.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3592, 'SWITCHING_GL': 0}
+2025-05-27 18:44:45,813 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=190.00, Cells=5577
+2025-05-27 18:44:45,873 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=190.00: Cells=5582, MaxR=78.63, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3637, 'SWITCHING_GL': 0}
+2025-05-27 18:44:46,255 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=191.00: Cells=5622, MaxR=78.63, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3677, 'SWITCHING_GL': 0}
+2025-05-27 18:44:46,707 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=192.00: Cells=5674, MaxR=78.63, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3729, 'SWITCHING_GL': 0}
+2025-05-27 18:44:47,115 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=193.00: Cells=5714, MaxR=78.63, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3769, 'SWITCHING_GL': 0}
+2025-05-27 18:44:47,512 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=194.00: Cells=5752, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3807, 'SWITCHING_GL': 0}
+2025-05-27 18:44:47,899 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=195.00: Cells=5804, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3859, 'SWITCHING_GL': 0}
+2025-05-27 18:44:48,295 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=196.00: Cells=5840, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3895, 'SWITCHING_GL': 0}
+2025-05-27 18:44:48,718 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=197.00: Cells=5885, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3940, 'SWITCHING_GL': 0}
+2025-05-27 18:44:49,129 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=198.00: Cells=5911, MaxR=81.55, Pheno={'G_SPECIALIST': 1946, 'L_SPECIALIST': 3965, 'SWITCHING_GL': 0}
+2025-05-27 18:44:49,531 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=199.00: Cells=5955, MaxR=81.55, Pheno={'G_SPECIALIST': 1947, 'L_SPECIALIST': 4008, 'SWITCHING_GL': 0}
+2025-05-27 18:44:49,866 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:218 - Progress: T=200.00, Cells=5995
+2025-05-27 18:44:49,928 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:177 - Metrics @ T=200.00: Cells=5999, MaxR=81.96, Pheno={'G_SPECIALIST': 1949, 'L_SPECIALIST': 4049, 'SWITCHING_GL': 1}
+2025-05-27 18:44:49,967 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:238 - Sim run finished: BetHedging0.5_W10_Rep3. Wall-clock: 37.261s.
+2025-05-27 18:44:49,967 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:241 - Final state: SimTime=200.10, Steps=2001, Cells=6002.
+2025-05-27 18:44:49,967 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:300 - Finalizing data collection and exporting results...
+2025-05-27 18:44:49,967 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:312 - --- Simulation Summary (Log) ---
+time: 199.99999999999292
+total_cell_count: 5999
+phenotype_counts: {'G_SPECIALIST': 1949, 'L_SPECIALIST': 4049, 'SWITCHING_GL': 1}
+avg_radial_distance: 47.15357975599868
+max_radial_distance: 81.95730595865142
+min_radial_distance: 0.0
+std_dev_radial_distance: 16.879350647710183
+median_radial_distance: 49.68903299521938
+frontier_lag_G_to_L: (details in files)
+frontier_traits: (details in files)
+overall_radial_expansion_velocity: 0.40112627575542686
+config_exp_name: BetHedging0.5_W10_Rep3
+
+2025-05-27 18:44:49,991 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:242 - Time series data exported to results\BetHedging0.5_W10_Rep3\time_series_data.csv
+2025-05-27 18:44:49,992 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:267 - Summary data exported to results\BetHedging0.5_W10_Rep3\summary.json
+2025-05-27 18:44:49,992 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:275 - No kymograph data to export.
+2025-05-27 18:44:49,992 - sim.BetHedging0.5_W10_Rep3.MetricsCollector - INFO - metrics:316 - All data export finalized for BetHedging0.5_W10_Rep3.
+2025-05-27 18:44:49,992 - sim.BetHedging0.5_W10_Rep3 - INFO - simulation_engine:276 - Simulation fully complete.

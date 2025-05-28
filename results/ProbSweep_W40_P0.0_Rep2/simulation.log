@@ -1,0 +1,247 @@
+2025-05-27 19:22:53,380 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:37 - Initializing SimulationEngine for experiment: ProbSweep_W40_P0.0_Rep2
+2025-05-27 19:22:53,380 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:70 - Visualization disabled.
+2025-05-27 19:22:53,380 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:202 - Starting simulation: ProbSweep_W40_P0.0_Rep2
+2025-05-27 19:22:53,381 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:204 - Colony initialized: 5 cells.
+2025-05-27 19:22:53,382 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=0.00: Cells=5, MaxR=1.73, Pheno={'G_SPECIALIST': 5, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,382 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=1.00: Cells=6, MaxR=3.00, Pheno={'G_SPECIALIST': 6, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,391 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=2.00: Cells=9, MaxR=3.46, Pheno={'G_SPECIALIST': 9, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,392 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=3.00: Cells=11, MaxR=3.46, Pheno={'G_SPECIALIST': 11, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,394 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=4.00: Cells=14, MaxR=5.20, Pheno={'G_SPECIALIST': 14, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,395 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=5.00: Cells=16, MaxR=5.20, Pheno={'G_SPECIALIST': 16, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,397 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=6.00: Cells=21, MaxR=7.55, Pheno={'G_SPECIALIST': 21, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,399 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=7.00: Cells=28, MaxR=9.17, Pheno={'G_SPECIALIST': 28, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,402 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=8.00: Cells=33, MaxR=9.17, Pheno={'G_SPECIALIST': 33, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,405 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=9.00: Cells=45, MaxR=9.64, Pheno={'G_SPECIALIST': 45, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,408 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=10.00, Cells=53
+2025-05-27 19:22:53,409 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=10.00: Cells=53, MaxR=10.82, Pheno={'G_SPECIALIST': 53, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,412 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=11.00: Cells=60, MaxR=10.82, Pheno={'G_SPECIALIST': 60, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,417 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=12.00: Cells=64, MaxR=11.36, Pheno={'G_SPECIALIST': 64, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,421 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=13.00: Cells=74, MaxR=11.36, Pheno={'G_SPECIALIST': 74, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,427 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=14.00: Cells=83, MaxR=12.49, Pheno={'G_SPECIALIST': 83, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,434 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=15.00: Cells=95, MaxR=12.49, Pheno={'G_SPECIALIST': 95, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,441 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=16.00: Cells=110, MaxR=13.75, Pheno={'G_SPECIALIST': 110, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,449 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=17.00: Cells=119, MaxR=13.75, Pheno={'G_SPECIALIST': 119, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,458 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=18.00: Cells=136, MaxR=13.86, Pheno={'G_SPECIALIST': 136, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,468 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=19.00: Cells=146, MaxR=14.80, Pheno={'G_SPECIALIST': 146, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,476 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=20.00, Cells=154
+2025-05-27 19:22:53,477 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=20.00: Cells=154, MaxR=14.80, Pheno={'G_SPECIALIST': 154, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,488 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=21.00: Cells=166, MaxR=14.80, Pheno={'G_SPECIALIST': 166, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,501 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=22.00: Cells=176, MaxR=17.32, Pheno={'G_SPECIALIST': 176, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,513 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=23.00: Cells=194, MaxR=19.29, Pheno={'G_SPECIALIST': 194, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,526 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=24.00: Cells=209, MaxR=19.29, Pheno={'G_SPECIALIST': 209, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,541 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=25.00: Cells=231, MaxR=19.29, Pheno={'G_SPECIALIST': 231, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,557 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=26.00: Cells=246, MaxR=19.29, Pheno={'G_SPECIALIST': 246, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,574 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=27.00: Cells=268, MaxR=19.97, Pheno={'G_SPECIALIST': 268, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,592 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=28.00: Cells=290, MaxR=22.65, Pheno={'G_SPECIALIST': 290, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,613 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=29.00: Cells=315, MaxR=22.65, Pheno={'G_SPECIALIST': 315, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,630 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=30.00, Cells=342
+2025-05-27 19:22:53,634 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=30.00: Cells=344, MaxR=22.72, Pheno={'G_SPECIALIST': 344, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,658 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=31.00: Cells=362, MaxR=22.91, Pheno={'G_SPECIALIST': 362, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,683 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=32.00: Cells=394, MaxR=24.56, Pheno={'G_SPECIALIST': 394, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,709 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=33.00: Cells=428, MaxR=24.56, Pheno={'G_SPECIALIST': 428, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,741 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=34.00: Cells=462, MaxR=25.16, Pheno={'G_SPECIALIST': 462, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,774 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=35.00: Cells=498, MaxR=25.63, Pheno={'G_SPECIALIST': 498, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,807 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=36.00: Cells=536, MaxR=26.21, Pheno={'G_SPECIALIST': 536, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,842 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=37.00: Cells=564, MaxR=26.21, Pheno={'G_SPECIALIST': 564, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,879 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=38.00: Cells=594, MaxR=28.35, Pheno={'G_SPECIALIST': 594, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,919 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=39.00: Cells=632, MaxR=28.35, Pheno={'G_SPECIALIST': 632, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:53,953 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=40.00, Cells=651
+2025-05-27 19:22:53,961 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=40.00: Cells=655, MaxR=29.55, Pheno={'G_SPECIALIST': 655, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,005 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=41.00: Cells=692, MaxR=29.55, Pheno={'G_SPECIALIST': 692, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,052 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=42.00: Cells=736, MaxR=31.51, Pheno={'G_SPECIALIST': 736, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,103 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=43.00: Cells=775, MaxR=31.61, Pheno={'G_SPECIALIST': 775, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,155 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=44.00: Cells=825, MaxR=31.61, Pheno={'G_SPECIALIST': 825, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,213 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=45.00: Cells=869, MaxR=33.05, Pheno={'G_SPECIALIST': 869, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,272 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=46.00: Cells=905, MaxR=33.41, Pheno={'G_SPECIALIST': 905, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,332 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=47.00: Cells=946, MaxR=34.60, Pheno={'G_SPECIALIST': 946, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,393 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=48.00: Cells=990, MaxR=34.60, Pheno={'G_SPECIALIST': 990, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,461 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=49.00: Cells=1030, MaxR=34.60, Pheno={'G_SPECIALIST': 1030, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,516 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=50.00, Cells=1063
+2025-05-27 19:22:54,528 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=50.00: Cells=1070, MaxR=35.03, Pheno={'G_SPECIALIST': 1070, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,599 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=51.00: Cells=1106, MaxR=35.79, Pheno={'G_SPECIALIST': 1106, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,670 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=52.00: Cells=1147, MaxR=36.37, Pheno={'G_SPECIALIST': 1147, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,745 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=53.00: Cells=1191, MaxR=37.99, Pheno={'G_SPECIALIST': 1191, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,823 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=54.00: Cells=1236, MaxR=38.57, Pheno={'G_SPECIALIST': 1236, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,906 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=55.00: Cells=1276, MaxR=39.69, Pheno={'G_SPECIALIST': 1276, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:54,992 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=56.00: Cells=1336, MaxR=39.69, Pheno={'G_SPECIALIST': 1336, 'L_SPECIALIST': 0, 'SWITCHING_GL': 0}
+2025-05-27 19:22:55,081 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=57.00: Cells=1400, MaxR=40.95, Pheno={'G_SPECIALIST': 1396, 'SWITCHING_GL': 4, 'L_SPECIALIST': 0}
+2025-05-27 19:22:55,174 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=58.00: Cells=1469, MaxR=40.95, Pheno={'G_SPECIALIST': 1462, 'SWITCHING_GL': 7, 'L_SPECIALIST': 0}
+2025-05-27 19:22:55,272 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=59.00: Cells=1530, MaxR=41.68, Pheno={'G_SPECIALIST': 1520, 'SWITCHING_GL': 10, 'L_SPECIALIST': 0}
+2025-05-27 19:22:55,355 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=60.00, Cells=1580
+2025-05-27 19:22:55,372 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=60.00: Cells=1581, MaxR=41.68, Pheno={'G_SPECIALIST': 1568, 'SWITCHING_GL': 13, 'L_SPECIALIST': 0}
+2025-05-27 19:22:55,475 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=61.00: Cells=1630, MaxR=41.68, Pheno={'G_SPECIALIST': 1614, 'SWITCHING_GL': 16, 'L_SPECIALIST': 0}
+2025-05-27 19:22:55,581 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=62.00: Cells=1678, MaxR=41.68, Pheno={'G_SPECIALIST': 1659, 'SWITCHING_GL': 18, 'L_SPECIALIST': 1}
+2025-05-27 19:22:55,689 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=63.00: Cells=1737, MaxR=41.68, Pheno={'G_SPECIALIST': 1715, 'SWITCHING_GL': 18, 'L_SPECIALIST': 4}
+2025-05-27 19:22:55,806 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=64.00: Cells=1780, MaxR=42.46, Pheno={'G_SPECIALIST': 1747, 'SWITCHING_GL': 27, 'L_SPECIALIST': 6}
+2025-05-27 19:22:55,921 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=65.00: Cells=1818, MaxR=42.46, Pheno={'G_SPECIALIST': 1775, 'SWITCHING_GL': 36, 'L_SPECIALIST': 7}
+2025-05-27 19:22:56,038 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=66.00: Cells=1865, MaxR=43.51, Pheno={'G_SPECIALIST': 1809, 'SWITCHING_GL': 45, 'L_SPECIALIST': 11}
+2025-05-27 19:22:56,156 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=67.00: Cells=1902, MaxR=45.13, Pheno={'G_SPECIALIST': 1829, 'SWITCHING_GL': 58, 'L_SPECIALIST': 15}
+2025-05-27 19:22:56,277 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=68.00: Cells=1934, MaxR=45.30, Pheno={'G_SPECIALIST': 1850, 'SWITCHING_GL': 64, 'L_SPECIALIST': 20}
+2025-05-27 19:22:56,398 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=69.00: Cells=1955, MaxR=45.30, Pheno={'G_SPECIALIST': 1862, 'SWITCHING_GL': 67, 'L_SPECIALIST': 26}
+2025-05-27 19:22:56,499 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=70.00, Cells=1975
+2025-05-27 19:22:56,521 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=70.00: Cells=1976, MaxR=45.30, Pheno={'G_SPECIALIST': 1875, 'SWITCHING_GL': 66, 'L_SPECIALIST': 35}
+2025-05-27 19:22:56,645 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=71.00: Cells=2000, MaxR=45.53, Pheno={'G_SPECIALIST': 1889, 'SWITCHING_GL': 64, 'L_SPECIALIST': 47}
+2025-05-27 19:22:56,770 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=72.00: Cells=2027, MaxR=45.53, Pheno={'G_SPECIALIST': 1901, 'SWITCHING_GL': 68, 'L_SPECIALIST': 58}
+2025-05-27 19:22:56,897 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=73.00: Cells=2051, MaxR=46.57, Pheno={'G_SPECIALIST': 1912, 'SWITCHING_GL': 72, 'L_SPECIALIST': 67}
+2025-05-27 19:22:57,024 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=74.00: Cells=2075, MaxR=46.57, Pheno={'G_SPECIALIST': 1924, 'SWITCHING_GL': 76, 'L_SPECIALIST': 75}
+2025-05-27 19:22:57,153 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=75.00: Cells=2101, MaxR=46.57, Pheno={'G_SPECIALIST': 1933, 'SWITCHING_GL': 86, 'L_SPECIALIST': 82}
+2025-05-27 19:22:57,284 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=76.00: Cells=2120, MaxR=46.57, Pheno={'G_SPECIALIST': 1937, 'SWITCHING_GL': 87, 'L_SPECIALIST': 96}
+2025-05-27 19:22:57,415 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=77.00: Cells=2132, MaxR=46.57, Pheno={'G_SPECIALIST': 1939, 'SWITCHING_GL': 84, 'L_SPECIALIST': 109}
+2025-05-27 19:22:57,548 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=78.00: Cells=2139, MaxR=46.57, Pheno={'G_SPECIALIST': 1942, 'L_SPECIALIST': 119, 'SWITCHING_GL': 78}
+2025-05-27 19:22:57,688 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=79.00: Cells=2155, MaxR=46.57, Pheno={'G_SPECIALIST': 1942, 'L_SPECIALIST': 139, 'SWITCHING_GL': 74}
+2025-05-27 19:22:57,804 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=80.00, Cells=2173
+2025-05-27 19:22:57,830 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=80.00: Cells=2175, MaxR=46.57, Pheno={'G_SPECIALIST': 1943, 'L_SPECIALIST': 165, 'SWITCHING_GL': 67}
+2025-05-27 19:22:57,980 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=81.00: Cells=2190, MaxR=46.57, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 182, 'SWITCHING_GL': 64}
+2025-05-27 19:22:58,124 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=82.00: Cells=2216, MaxR=46.57, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 206, 'SWITCHING_GL': 66}
+2025-05-27 19:22:58,267 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=83.00: Cells=2238, MaxR=47.15, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 229, 'SWITCHING_GL': 65}
+2025-05-27 19:22:58,406 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=84.00: Cells=2251, MaxR=47.62, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 244, 'SWITCHING_GL': 63}
+2025-05-27 19:22:58,547 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=85.00: Cells=2271, MaxR=48.50, Pheno={'G_SPECIALIST': 1944, 'L_SPECIALIST': 268, 'SWITCHING_GL': 59}
+2025-05-27 19:22:58,688 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=86.00: Cells=2288, MaxR=48.50, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 290, 'SWITCHING_GL': 53}
+2025-05-27 19:22:58,832 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=87.00: Cells=2306, MaxR=48.50, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 315, 'SWITCHING_GL': 46}
+2025-05-27 19:22:58,979 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=88.00: Cells=2325, MaxR=48.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 341, 'SWITCHING_GL': 39}
+2025-05-27 19:22:59,126 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=89.00: Cells=2342, MaxR=48.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 363, 'SWITCHING_GL': 34}
+2025-05-27 19:22:59,250 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=90.00, Cells=2364
+2025-05-27 19:22:59,275 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=90.00: Cells=2367, MaxR=48.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 391, 'SWITCHING_GL': 31}
+2025-05-27 19:22:59,425 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=91.00: Cells=2390, MaxR=48.77, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 415, 'SWITCHING_GL': 30}
+2025-05-27 19:22:59,577 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=92.00: Cells=2413, MaxR=49.57, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 438, 'SWITCHING_GL': 30}
+2025-05-27 19:22:59,729 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=93.00: Cells=2437, MaxR=51.29, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 467, 'SWITCHING_GL': 25}
+2025-05-27 19:22:59,885 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=94.00: Cells=2470, MaxR=51.29, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 502, 'SWITCHING_GL': 23}
+2025-05-27 19:23:00,041 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=95.00: Cells=2489, MaxR=51.29, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 523, 'SWITCHING_GL': 21}
+2025-05-27 19:23:00,197 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=96.00: Cells=2512, MaxR=51.29, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 552, 'SWITCHING_GL': 15}
+2025-05-27 19:23:00,357 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=97.00: Cells=2536, MaxR=51.29, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 578, 'SWITCHING_GL': 13}
+2025-05-27 19:23:00,519 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=98.00: Cells=2569, MaxR=52.85, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 612, 'SWITCHING_GL': 12}
+2025-05-27 19:23:00,680 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=99.00: Cells=2590, MaxR=53.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 634, 'SWITCHING_GL': 11}
+2025-05-27 19:23:00,818 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=100.00, Cells=2622
+2025-05-27 19:23:00,845 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=100.00: Cells=2625, MaxR=53.78, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 671, 'SWITCHING_GL': 9}
+2025-05-27 19:23:01,013 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=101.00: Cells=2661, MaxR=53.78, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 708, 'SWITCHING_GL': 8}
+2025-05-27 19:23:01,181 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=102.00: Cells=2685, MaxR=54.03, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 733, 'SWITCHING_GL': 7}
+2025-05-27 19:23:01,350 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=103.00: Cells=2714, MaxR=54.74, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 765, 'SWITCHING_GL': 4}
+2025-05-27 19:23:01,524 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=104.00: Cells=2749, MaxR=54.74, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 801, 'SWITCHING_GL': 3}
+2025-05-27 19:23:01,700 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=105.00: Cells=2778, MaxR=54.74, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 831, 'SWITCHING_GL': 2}
+2025-05-27 19:23:01,873 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=106.00: Cells=2821, MaxR=56.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 874, 'SWITCHING_GL': 2}
+2025-05-27 19:23:02,051 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=107.00: Cells=2848, MaxR=56.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 901, 'SWITCHING_GL': 2}
+2025-05-27 19:23:02,231 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=108.00: Cells=2892, MaxR=56.47, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 945, 'SWITCHING_GL': 2}
+2025-05-27 19:23:02,413 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=109.00: Cells=2921, MaxR=57.24, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 974, 'SWITCHING_GL': 2}
+2025-05-27 19:23:02,565 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=110.00, Cells=2956
+2025-05-27 19:23:02,595 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=110.00: Cells=2960, MaxR=58.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1014, 'SWITCHING_GL': 1}
+2025-05-27 19:23:02,781 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=111.00: Cells=2993, MaxR=58.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1047, 'SWITCHING_GL': 1}
+2025-05-27 19:23:02,970 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=112.00: Cells=3024, MaxR=58.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1079, 'SWITCHING_GL': 0}
+2025-05-27 19:23:03,160 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=113.00: Cells=3056, MaxR=58.20, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1111, 'SWITCHING_GL': 0}
+2025-05-27 19:23:03,349 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=114.00: Cells=3078, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1133, 'SWITCHING_GL': 0}
+2025-05-27 19:23:03,542 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=115.00: Cells=3115, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1170, 'SWITCHING_GL': 0}
+2025-05-27 19:23:03,735 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=116.00: Cells=3144, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1199, 'SWITCHING_GL': 0}
+2025-05-27 19:23:03,929 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=117.00: Cells=3161, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1216, 'SWITCHING_GL': 0}
+2025-05-27 19:23:04,148 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=118.00: Cells=3195, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1250, 'SWITCHING_GL': 0}
+2025-05-27 19:23:04,350 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=119.00: Cells=3231, MaxR=59.92, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1286, 'SWITCHING_GL': 0}
+2025-05-27 19:23:04,520 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=120.00, Cells=3261
+2025-05-27 19:23:04,553 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=120.00: Cells=3265, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1320, 'SWITCHING_GL': 0}
+2025-05-27 19:23:04,756 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=121.00: Cells=3299, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1354, 'SWITCHING_GL': 0}
+2025-05-27 19:23:04,972 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=122.00: Cells=3331, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1386, 'SWITCHING_GL': 0}
+2025-05-27 19:23:05,188 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=123.00: Cells=3360, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1415, 'SWITCHING_GL': 0}
+2025-05-27 19:23:05,424 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=124.00: Cells=3399, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1454, 'SWITCHING_GL': 0}
+2025-05-27 19:23:05,641 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=125.00: Cells=3420, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1475, 'SWITCHING_GL': 0}
+2025-05-27 19:23:05,860 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=126.00: Cells=3457, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1512, 'SWITCHING_GL': 0}
+2025-05-27 19:23:06,090 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=127.00: Cells=3504, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1559, 'SWITCHING_GL': 0}
+2025-05-27 19:23:06,322 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=128.00: Cells=3538, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1593, 'SWITCHING_GL': 0}
+2025-05-27 19:23:06,561 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=129.00: Cells=3569, MaxR=61.65, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1624, 'SWITCHING_GL': 0}
+2025-05-27 19:23:06,753 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=130.00, Cells=3590
+2025-05-27 19:23:06,791 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=130.00: Cells=3596, MaxR=62.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1651, 'SWITCHING_GL': 0}
+2025-05-27 19:23:07,020 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=131.00: Cells=3625, MaxR=62.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1680, 'SWITCHING_GL': 0}
+2025-05-27 19:23:07,247 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=132.00: Cells=3658, MaxR=62.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1713, 'SWITCHING_GL': 0}
+2025-05-27 19:23:07,479 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=133.00: Cells=3689, MaxR=62.43, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1744, 'SWITCHING_GL': 0}
+2025-05-27 19:23:07,712 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=134.00: Cells=3720, MaxR=62.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1775, 'SWITCHING_GL': 0}
+2025-05-27 19:23:07,947 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=135.00: Cells=3751, MaxR=62.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1806, 'SWITCHING_GL': 0}
+2025-05-27 19:23:08,180 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=136.00: Cells=3776, MaxR=62.64, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1831, 'SWITCHING_GL': 0}
+2025-05-27 19:23:08,416 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=137.00: Cells=3809, MaxR=64.09, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1864, 'SWITCHING_GL': 0}
+2025-05-27 19:23:08,652 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=138.00: Cells=3834, MaxR=64.09, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1889, 'SWITCHING_GL': 0}
+2025-05-27 19:23:08,888 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=139.00: Cells=3852, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1907, 'SWITCHING_GL': 0}
+2025-05-27 19:23:09,090 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=140.00, Cells=3881
+2025-05-27 19:23:09,129 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=140.00: Cells=3884, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1939, 'SWITCHING_GL': 0}
+2025-05-27 19:23:09,370 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=141.00: Cells=3916, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 1971, 'SWITCHING_GL': 0}
+2025-05-27 19:23:09,613 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=142.00: Cells=3950, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2005, 'SWITCHING_GL': 0}
+2025-05-27 19:23:09,861 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=143.00: Cells=3985, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2040, 'SWITCHING_GL': 0}
+2025-05-27 19:23:10,110 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=144.00: Cells=4012, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2067, 'SWITCHING_GL': 0}
+2025-05-27 19:23:10,360 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=145.00: Cells=4043, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2098, 'SWITCHING_GL': 0}
+2025-05-27 19:23:10,615 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=146.00: Cells=4078, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2133, 'SWITCHING_GL': 0}
+2025-05-27 19:23:10,870 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=147.00: Cells=4113, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2168, 'SWITCHING_GL': 0}
+2025-05-27 19:23:11,127 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=148.00: Cells=4148, MaxR=65.80, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2203, 'SWITCHING_GL': 0}
+2025-05-27 19:23:11,384 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=149.00: Cells=4178, MaxR=69.22, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2233, 'SWITCHING_GL': 0}
+2025-05-27 19:23:11,605 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=150.00, Cells=4217
+2025-05-27 19:23:11,648 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=150.00: Cells=4220, MaxR=69.22, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2275, 'SWITCHING_GL': 0}
+2025-05-27 19:23:11,917 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=151.00: Cells=4255, MaxR=69.22, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2310, 'SWITCHING_GL': 0}
+2025-05-27 19:23:12,182 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=152.00: Cells=4286, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2341, 'SWITCHING_GL': 0}
+2025-05-27 19:23:12,448 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=153.00: Cells=4317, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2372, 'SWITCHING_GL': 0}
+2025-05-27 19:23:12,722 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=154.00: Cells=4357, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2412, 'SWITCHING_GL': 0}
+2025-05-27 19:23:12,996 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=155.00: Cells=4395, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2450, 'SWITCHING_GL': 0}
+2025-05-27 19:23:13,274 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=156.00: Cells=4439, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2494, 'SWITCHING_GL': 0}
+2025-05-27 19:23:13,552 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=157.00: Cells=4461, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2516, 'SWITCHING_GL': 0}
+2025-05-27 19:23:13,832 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=158.00: Cells=4505, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2560, 'SWITCHING_GL': 0}
+2025-05-27 19:23:14,114 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=159.00: Cells=4537, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2592, 'SWITCHING_GL': 0}
+2025-05-27 19:23:14,349 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=160.00, Cells=4564
+2025-05-27 19:23:14,396 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=160.00: Cells=4565, MaxR=70.31, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2620, 'SWITCHING_GL': 0}
+2025-05-27 19:23:14,679 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=161.00: Cells=4599, MaxR=71.08, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2654, 'SWITCHING_GL': 0}
+2025-05-27 19:23:14,966 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=162.00: Cells=4635, MaxR=71.44, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2690, 'SWITCHING_GL': 0}
+2025-05-27 19:23:15,254 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=163.00: Cells=4669, MaxR=72.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2724, 'SWITCHING_GL': 0}
+2025-05-27 19:23:15,545 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=164.00: Cells=4702, MaxR=72.02, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2757, 'SWITCHING_GL': 0}
+2025-05-27 19:23:15,840 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=165.00: Cells=4733, MaxR=73.14, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2788, 'SWITCHING_GL': 0}
+2025-05-27 19:23:16,134 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=166.00: Cells=4780, MaxR=73.14, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2835, 'SWITCHING_GL': 0}
+2025-05-27 19:23:16,438 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=167.00: Cells=4823, MaxR=73.30, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2878, 'SWITCHING_GL': 0}
+2025-05-27 19:23:16,744 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=168.00: Cells=4864, MaxR=73.30, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2919, 'SWITCHING_GL': 0}
+2025-05-27 19:23:17,067 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=169.00: Cells=4909, MaxR=73.73, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 2964, 'SWITCHING_GL': 0}
+2025-05-27 19:23:17,330 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=170.00, Cells=4958
+2025-05-27 19:23:17,381 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=170.00: Cells=4961, MaxR=73.73, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3016, 'SWITCHING_GL': 0}
+2025-05-27 19:23:17,689 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=171.00: Cells=4998, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3053, 'SWITCHING_GL': 0}
+2025-05-27 19:23:18,000 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=172.00: Cells=5035, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3090, 'SWITCHING_GL': 0}
+2025-05-27 19:23:18,316 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=173.00: Cells=5071, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3126, 'SWITCHING_GL': 0}
+2025-05-27 19:23:18,636 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=174.00: Cells=5112, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3167, 'SWITCHING_GL': 0}
+2025-05-27 19:23:18,957 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=175.00: Cells=5161, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3216, 'SWITCHING_GL': 0}
+2025-05-27 19:23:19,283 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=176.00: Cells=5199, MaxR=74.84, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3254, 'SWITCHING_GL': 0}
+2025-05-27 19:23:19,610 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=177.00: Cells=5250, MaxR=75.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3305, 'SWITCHING_GL': 0}
+2025-05-27 19:23:19,939 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=178.00: Cells=5284, MaxR=75.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3339, 'SWITCHING_GL': 0}
+2025-05-27 19:23:20,275 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=179.00: Cells=5326, MaxR=75.97, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3381, 'SWITCHING_GL': 0}
+2025-05-27 19:23:20,552 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=180.00, Cells=5361
+2025-05-27 19:23:20,607 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=180.00: Cells=5365, MaxR=77.13, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3420, 'SWITCHING_GL': 0}
+2025-05-27 19:23:20,943 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=181.00: Cells=5417, MaxR=77.13, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3472, 'SWITCHING_GL': 0}
+2025-05-27 19:23:21,279 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=182.00: Cells=5466, MaxR=77.13, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3521, 'SWITCHING_GL': 0}
+2025-05-27 19:23:21,622 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=183.00: Cells=5518, MaxR=77.21, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3573, 'SWITCHING_GL': 0}
+2025-05-27 19:23:21,973 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=184.00: Cells=5567, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3622, 'SWITCHING_GL': 0}
+2025-05-27 19:23:22,320 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=185.00: Cells=5602, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3657, 'SWITCHING_GL': 0}
+2025-05-27 19:23:22,669 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=186.00: Cells=5642, MaxR=79.90, Pheno={'G_SPECIALIST': 1945, 'L_SPECIALIST': 3697, 'SWITCHING_GL': 0}
+2025-05-27 19:23:23,021 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=187.00: Cells=5691, MaxR=80.55, Pheno={'G_SPECIALIST': 1946, 'L_SPECIALIST': 3745, 'SWITCHING_GL': 0}
+2025-05-27 19:23:23,390 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=188.00: Cells=5742, MaxR=80.67, Pheno={'G_SPECIALIST': 1947, 'L_SPECIALIST': 3795, 'SWITCHING_GL': 0}
+2025-05-27 19:23:23,772 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=189.00: Cells=5786, MaxR=81.46, Pheno={'G_SPECIALIST': 1948, 'L_SPECIALIST': 3838, 'SWITCHING_GL': 0}
+2025-05-27 19:23:24,075 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=190.00, Cells=5816
+2025-05-27 19:23:24,133 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=190.00: Cells=5821, MaxR=81.46, Pheno={'G_SPECIALIST': 1948, 'L_SPECIALIST': 3873, 'SWITCHING_GL': 0}
+2025-05-27 19:23:24,498 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=191.00: Cells=5862, MaxR=81.63, Pheno={'G_SPECIALIST': 1949, 'L_SPECIALIST': 3913, 'SWITCHING_GL': 0}
+2025-05-27 19:23:24,862 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=192.00: Cells=5899, MaxR=85.08, Pheno={'G_SPECIALIST': 1952, 'L_SPECIALIST': 3947, 'SWITCHING_GL': 0}
+2025-05-27 19:23:25,231 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=193.00: Cells=5944, MaxR=87.07, Pheno={'G_SPECIALIST': 1956, 'L_SPECIALIST': 3988, 'SWITCHING_GL': 0}
+2025-05-27 19:23:25,602 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=194.00: Cells=6004, MaxR=87.07, Pheno={'G_SPECIALIST': 1960, 'L_SPECIALIST': 4044, 'SWITCHING_GL': 0}
+2025-05-27 19:23:25,979 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=195.00: Cells=6056, MaxR=88.10, Pheno={'G_SPECIALIST': 1965, 'L_SPECIALIST': 4091, 'SWITCHING_GL': 0}
+2025-05-27 19:23:26,357 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=196.00: Cells=6105, MaxR=88.10, Pheno={'G_SPECIALIST': 1970, 'L_SPECIALIST': 4135, 'SWITCHING_GL': 0}
+2025-05-27 19:23:26,741 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=197.00: Cells=6149, MaxR=88.10, Pheno={'G_SPECIALIST': 1971, 'L_SPECIALIST': 4178, 'SWITCHING_GL': 0}
+2025-05-27 19:23:27,123 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=198.00: Cells=6185, MaxR=88.10, Pheno={'G_SPECIALIST': 1975, 'L_SPECIALIST': 4210, 'SWITCHING_GL': 0}
+2025-05-27 19:23:27,511 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=199.00: Cells=6229, MaxR=88.10, Pheno={'G_SPECIALIST': 1979, 'L_SPECIALIST': 4250, 'SWITCHING_GL': 0}
+2025-05-27 19:23:27,837 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:218 - Progress: T=200.00, Cells=6271
+2025-05-27 19:23:27,900 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:177 - Metrics @ T=200.00: Cells=6276, MaxR=88.10, Pheno={'G_SPECIALIST': 1984, 'L_SPECIALIST': 4292, 'SWITCHING_GL': 0}
+2025-05-27 19:23:27,937 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:238 - Sim run finished: ProbSweep_W40_P0.0_Rep2. Wall-clock: 34.554s.
+2025-05-27 19:23:27,937 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:241 - Final state: SimTime=200.10, Steps=2001, Cells=6278.
+2025-05-27 19:23:27,937 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:300 - Finalizing data collection and exporting results...
+2025-05-27 19:23:27,937 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:312 - --- Simulation Summary (Log) ---
+time: 199.99999999999292
+total_cell_count: 6276
+phenotype_counts: {'G_SPECIALIST': 1984, 'L_SPECIALIST': 4292, 'SWITCHING_GL': 0}
+avg_radial_distance: 48.293350699104344
+max_radial_distance: 88.09653795694811
+min_radial_distance: 0.0
+std_dev_radial_distance: 17.37652102240917
+median_radial_distance: 51.02940328869229
+frontier_lag_G_to_L: (details in files)
+frontier_traits: (details in files)
+overall_radial_expansion_velocity: 0.4318224357469114
+config_exp_name: ProbSweep_W40_P0.0_Rep2
+
+2025-05-27 19:23:27,956 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:242 - Time series data exported to results\ProbSweep_W40_P0.0_Rep2\time_series_data.csv
+2025-05-27 19:23:27,957 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:267 - Summary data exported to results\ProbSweep_W40_P0.0_Rep2\summary.json
+2025-05-27 19:23:27,958 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:275 - No kymograph data to export.
+2025-05-27 19:23:27,958 - sim.ProbSweep_W40_P0.0_Rep2.MetricsCollector - INFO - metrics:316 - All data export finalized for ProbSweep_W40_P0.0_Rep2.
+2025-05-27 19:23:27,958 - sim.ProbSweep_W40_P0.0_Rep2 - INFO - simulation_engine:276 - Simulation fully complete.

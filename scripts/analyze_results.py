@@ -22,7 +22,6 @@ plt.rcParams.update({
 })
 
 from src.core.data_structures import SimulationConfig
-from src.visualization.kymograph import KymographGenerator
 
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s - %(module)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -39,36 +38,82 @@ STRATEGY_MARKERS = {
 }
 
 def extract_params_from_summary(summary_data: Dict[str, Any]) -> Dict[str, Any]:
-    """Extracts key parameters from summary data's config section."""
+    """Extracts key parameters from summary data's config section and experiment name."""
     params = {}
     config = summary_data.get("config", {})
 
     params["experiment_name"] = config.get("experiment_name", "UnknownExp")
-    params["W_band"] = config.get("W_band", np.nan)
-    params["prob_bet"] = config.get("prob_daughter_inherits_prototype_1", np.nan)
-
-    trade_off_cfg = config.get("trade_off_params", {})
-    if isinstance(trade_off_cfg, dict):
-        params["tradeoff_slope"] = trade_off_cfg.get("slope", np.nan)
-    elif hasattr(trade_off_cfg, "slope"):
-        params["tradeoff_slope"] = trade_off_cfg.slope
-    else:
-        params["tradeoff_slope"] = np.nan
+    exp_name = params["experiment_name"]
+    
+    # Extract parameters from experiment name (more reliable than config)
+    params["W_band"] = extract_w_band_from_name(exp_name)
+    params["prob_bet"] = extract_prob_bet_from_name(exp_name)
+    params["tradeoff_slope"] = extract_tradeoff_slope_from_name(exp_name)
+    
+    # Fallback to config if not found in name
+    if np.isnan(params["W_band"]):
+        params["W_band"] = config.get("W_band", np.nan)
+    if np.isnan(params["prob_bet"]):
+        params["prob_bet"] = config.get("prob_daughter_inherits_prototype_1", np.nan)
+    if np.isnan(params["tradeoff_slope"]):
+        trade_off_cfg = config.get("trade_off_params", {})
+        if isinstance(trade_off_cfg, dict):
+            params["tradeoff_slope"] = trade_off_cfg.get("slope", np.nan)
+        elif hasattr(trade_off_cfg, "slope"):
+            params["tradeoff_slope"] = trade_off_cfg.slope
+        else:
+            params["tradeoff_slope"] = np.nan
 
     params["g_rate_P1"] = config.get("g_rate_prototype_1", np.nan)
     params["g_rate_P2"] = config.get("g_rate_prototype_2", np.nan)
     params["v_rad"] = summary_data.get("overall_radial_expansion_velocity", np.nan)
 
-    if params["prob_bet"] == 0.0:
-        params["strategy_label"] = "Responsive_HG"
-    elif params["prob_bet"] == 1.0:
-        params["strategy_label"] = "Responsive_LL"
-    elif 0 < params["prob_bet"] < 1:
-        params["strategy_label"] = f"BetHedging_{params['prob_bet']:.1f}"
-    else:
-        params["strategy_label"] = "UnknownStrategy"
+    # Determine strategy label from experiment name and prob_bet
+    params["strategy_label"] = determine_strategy_label(exp_name, params["prob_bet"])
 
     return params
+
+def extract_w_band_from_name(exp_name: str) -> float:
+    """Extract W_band value from experiment name."""
+    import re
+    # Look for patterns like W5, W10, W20, W40, W80
+    match = re.search(r'_W(\d+)(?:_|$)', exp_name)
+    if match:
+        return float(match.group(1))
+    return np.nan
+
+def extract_prob_bet_from_name(exp_name: str) -> float:
+    """Extract probability bet value from experiment name."""
+    import re
+    # Look for patterns like P0.5, P0.0, P1.0
+    match = re.search(r'_P(\d+\.?\d*)(?:_|$)', exp_name)
+    if match:
+        return float(match.group(1))
+    # Look for BetHedging patterns
+    match = re.search(r'BetHedging(\d+\.?\d*)', exp_name)
+    if match:
+        return float(match.group(1))
+    return np.nan
+
+def extract_tradeoff_slope_from_name(exp_name: str) -> float:
+    """Extract tradeoff slope value from experiment name."""
+    import re
+    # Look for patterns like S10, S20, S40
+    match = re.search(r'_S(\d+)(?:_|$)', exp_name)
+    if match:
+        return float(match.group(1))
+    return np.nan
+
+def determine_strategy_label(exp_name: str, prob_bet: float) -> str:
+    """Determine strategy label from experiment name and prob_bet."""
+    if "ResponsiveHG" in exp_name or prob_bet == 0.0:
+        return "Responsive_HG"
+    elif "ResponsiveLL" in exp_name or prob_bet == 1.0:
+        return "Responsive_LL"
+    elif "BetHedging" in exp_name or (0 < prob_bet < 1):
+        return f"BetHedging_{prob_bet:.1f}"
+    else:
+        return "UnknownStrategy"
 
 def plot_vrad_vs_parameter(df_results: pd.DataFrame, param_x: str, fig_title: str, 
                           output_filename: Path, hue_param: str = "strategy_label",
@@ -250,6 +295,226 @@ def analyze_bet_hedging_mechanisms(df_results: pd.DataFrame, output_dir: Path):
         plt.close()
         logger.info(f"Bet-hedging advantage plot saved to {advantage_plot_file}")
 
+def analyze_lag_dynamics(base_results_path: Path, df_results: pd.DataFrame, output_dir: Path):
+    """RQ1.2: Analyze lag time distributions for different strategies."""
+    logger.info("Analyzing lag dynamics...")
+    
+    # Get representative experiments for each strategy
+    strategies_to_analyze = ["Responsive_HG", "Responsive_LL", "BetHedging_0.5"]
+    w_band_to_analyze = 40.0  # Use W_band=40 as representative
+    
+    for strategy in strategies_to_analyze:
+        strategy_data = df_results[
+            (df_results["strategy_label"] == strategy) & 
+            (np.isclose(df_results["W_band"], w_band_to_analyze))
+        ]
+        
+        if strategy_data.empty:
+            continue
+            
+        # Get the first experiment for this strategy
+        exp_name = strategy_data.iloc[0]["experiment_name"]
+        exp_dir = base_results_path / exp_name
+        
+        # Try to load time series data
+        time_series_file = exp_dir / "time_series_data.csv"
+        if time_series_file.exists():
+            try:
+                ts_data = pd.read_csv(time_series_file)
+                
+                # Create lag histogram if lag data exists
+                if "avg_remaining_lag_at_transition" in ts_data.columns:
+                    lag_data = ts_data["avg_remaining_lag_at_transition"].dropna()
+                    if len(lag_data) > 0:
+                        fig, ax = plt.subplots(figsize=(8, 6))
+                        ax.hist(lag_data, bins=20, alpha=0.7, color=STRATEGY_COLORS.get(strategy, "gray"))
+                        ax.set_xlabel("Remaining Lag Time at Transition")
+                        ax.set_ylabel("Frequency")
+                        ax.set_title(f"RQ1.2: Lag Distribution - {strategy} (W_band={w_band_to_analyze})")
+                        ax.grid(True, alpha=0.3)
+                        
+                        lag_hist_file = output_dir / f"RQ1_2_lag_hist_{strategy}_W{w_band_to_analyze:.0f}.png"
+                        plt.savefig(lag_hist_file, dpi=300, bbox_inches="tight")
+                        plt.close()
+                        logger.info(f"Lag histogram saved: {lag_hist_file}")
+                        
+            except Exception as e:
+                logger.warning(f"Error processing time series for {exp_name}: {e}")
+
+def analyze_phenotype_composition(base_results_path: Path, df_results: pd.DataFrame, output_dir: Path):
+    """RQ1.2: Analyze phenotypic composition dynamics."""
+    logger.info("Analyzing phenotype composition...")
+    
+    strategies_to_analyze = ["Responsive_HG", "Responsive_LL", "BetHedging_0.5"]
+    w_band_to_analyze = 40.0
+    
+    for strategy in strategies_to_analyze:
+        strategy_data = df_results[
+            (df_results["strategy_label"] == strategy) & 
+            (np.isclose(df_results["W_band"], w_band_to_analyze))
+        ]
+        
+        if strategy_data.empty:
+            continue
+            
+        exp_name = strategy_data.iloc[0]["experiment_name"]
+        exp_dir = base_results_path / exp_name
+        
+        time_series_file = exp_dir / "time_series_data.csv"
+        if time_series_file.exists():
+            try:
+                ts_data = pd.read_csv(time_series_file)
+                
+                # Look for phenotype columns
+                phenotype_cols = [col for col in ts_data.columns if "phenotype" in col.lower() or 
+                                col in ["G_SPECIALIST", "L_SPECIALIST", "SWITCHING_GL"]]
+                
+                if phenotype_cols and "time" in ts_data.columns:
+                    fig, ax = plt.subplots(figsize=(10, 6))
+                    
+                    for col in phenotype_cols:
+                        if col in ts_data.columns:
+                            ax.plot(ts_data["time"], ts_data[col], label=col, linewidth=2)
+                    
+                    ax.set_xlabel("Time")
+                    ax.set_ylabel("Cell Count")
+                    ax.set_title(f"RQ1.2: Phenotype Composition - {strategy} (W_band={w_band_to_analyze})")
+                    ax.legend()
+                    ax.grid(True, alpha=0.3)
+                    
+                    comp_file = output_dir / f"RQ1_2_phenotype_composition_{strategy}_W{w_band_to_analyze:.0f}.png"
+                    plt.savefig(comp_file, dpi=300, bbox_inches="tight")
+                    plt.close()
+                    logger.info(f"Phenotype composition plot saved: {comp_file}")
+                    
+            except Exception as e:
+                logger.warning(f"Error processing phenotype composition for {exp_name}: {e}")
+
+def analyze_trait_distributions(df_results: pd.DataFrame, output_dir: Path):
+    """RQ2.2: Analyze trait diversity distributions."""
+    logger.info("Analyzing trait distributions...")
+    
+    # Analyze trait distinctness experiments
+    trait_experiments = df_results[df_results["experiment_name"].str.contains("TraitDistinct", na=False)]
+    
+    if trait_experiments.empty:
+        logger.warning("No trait distinctness experiments found")
+        return
+    
+    # Group by distinctness level
+    high_distinct = trait_experiments[trait_experiments["experiment_name"].str.contains("HighDistinct")]
+    low_distinct = trait_experiments[trait_experiments["experiment_name"].str.contains("LowDistinct")]
+    
+    if not high_distinct.empty and not low_distinct.empty:
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+        
+        # Plot performance comparison
+        categories = ["High Distinctness", "Low Distinctness"]
+        performances = [high_distinct["v_rad"].mean(), low_distinct["v_rad"].mean()]
+        errors = [high_distinct["v_rad"].std(), low_distinct["v_rad"].std()]
+        
+        ax1.bar(categories, performances, yerr=errors, capsize=5, 
+               color=["darkgreen", "lightgreen"], alpha=0.7)
+        ax1.set_ylabel("Mean Radial Expansion Velocity")
+        ax1.set_title("RQ2.2: Performance vs Trait Distinctness")
+        ax1.grid(True, alpha=0.3)
+        
+        # Plot trait distribution (mock data based on g_rate values)
+        g_rates_high = high_distinct["g_rate_P1"].tolist() + high_distinct["g_rate_P2"].tolist()
+        g_rates_low = low_distinct["g_rate_P1"].tolist() + low_distinct["g_rate_P2"].tolist()
+        
+        ax2.hist([g_rates_high, g_rates_low], bins=10, alpha=0.7, 
+                label=["High Distinctness", "Low Distinctness"],
+                color=["darkgreen", "lightgreen"])
+        ax2.set_xlabel("Growth Rate")
+        ax2.set_ylabel("Frequency")
+        ax2.set_title("RQ2.2: Trait Distribution")
+        ax2.legend()
+        ax2.grid(True, alpha=0.3)
+        
+        plt.tight_layout()
+        trait_file = output_dir / "RQ2_2_trait_hist_distinctness.png"
+        plt.savefig(trait_file, dpi=300, bbox_inches="tight")
+        plt.close()
+        logger.info(f"Trait distribution plot saved: {trait_file}")
+
+def generate_simple_kymographs(base_results_path: Path, df_results: pd.DataFrame, output_dir: Path):
+    """Generate simple kymograph visualizations for representative experiments."""
+    logger.info("Generating simple kymographs...")
+    
+    # Select representative experiments
+    representative_experiments = []
+    for strategy in ["Responsive_HG", "Responsive_LL", "BetHedging_0.5"]:
+        strategy_data = df_results[df_results["strategy_label"] == strategy]
+        if not strategy_data.empty:
+            # Get experiment with W_band=40 if available
+            w40_data = strategy_data[np.isclose(strategy_data["W_band"], 40.0)]
+            if not w40_data.empty:
+                representative_experiments.append(w40_data.iloc[0]["experiment_name"])
+    
+    for exp_name in representative_experiments:
+        exp_dir = base_results_path / exp_name
+        kymo_data_file = exp_dir / "kymograph_perimeter_raw_data.npz"
+        
+        if kymo_data_file.exists():
+            try:
+                # Load the kymograph data directly
+                loaded_data = np.load(kymo_data_file, allow_pickle=True)
+                
+                # Find the first available attribute to plot
+                attribute_keys = set()
+                for key in loaded_data.keys():
+                    if key.endswith("_times"):
+                        attribute_keys.add(key.replace("_times", ""))
+                    elif key.endswith("_values"):
+                        attribute_keys.add(key.replace("_values", ""))
+                
+                if attribute_keys:
+                    # Use the first available attribute
+                    attr_name = list(attribute_keys)[0]
+                    times_key = f"{attr_name}_times"
+                    values_key = f"{attr_name}_values"
+                    
+                    if times_key in loaded_data and values_key in loaded_data:
+                        times = loaded_data[times_key]
+                        values_matrix = loaded_data[values_key]
+                        
+                        if times.size > 0 and values_matrix.size > 0 and values_matrix.ndim == 2:
+                            fig, ax = plt.subplots(figsize=(10, 6))
+                            
+                            # Create kymograph plot
+                            im = ax.imshow(
+                                values_matrix.T,
+                                aspect="auto",
+                                origin="lower",
+                                cmap="viridis",
+                                extent=[times.min(), times.max(), 0, values_matrix.shape[1]]
+                            )
+                            
+                            ax.set_xlabel("Time")
+                            ax.set_ylabel("Angular Position")
+                            ax.set_title(f"RQ4.1: Kymograph - {exp_name}")
+                            
+                            try:
+                                plt.colorbar(im, ax=ax, label=attr_name.replace("_", " ").title())
+                            except:
+                                pass
+                            
+                            plt.tight_layout()
+                            kymo_output_file = output_dir / f"RQ4_1_kymograph_{exp_name}.png"
+                            plt.savefig(kymo_output_file, dpi=300, bbox_inches="tight")
+                            plt.close()
+                            logger.info(f"Kymograph saved: {kymo_output_file}")
+                        else:
+                            logger.warning(f"Invalid kymograph data shape for {exp_name}")
+                    else:
+                        logger.warning(f"Missing time or values data for {exp_name}")
+                else:
+                    logger.warning(f"No valid attributes found in kymograph data for {exp_name}")
+                    
+            except Exception as e:
+                logger.warning(f"Error generating kymograph for {exp_name}: {e}")
+
 def main():
     parser = argparse.ArgumentParser(description="Analyze microbial colony simulation results.")
     parser.add_argument("--results_base_dir", type=str, default="results", 
@@ -307,21 +572,4 @@ def main():
         if len(df_filtered_by_w["prob_bet"].dropna().unique()) > 2:
             plot_vrad_vs_parameter(df_filtered_by_w, "prob_bet",
                                   f"RQ2.1: Optimal Bet-Hedging Prob. (W_band={w_val:.1f})",
-                                  analysis_output_path / f"RQ2_1_vrad_vs_prob_bet_W{w_val:.0f}.png",
-                                  hue_param="experiment_name",
-                                  xlabel="Prob. Daughter is Prototype 1")
-
-    # RQ3.1: v_rad vs tradeoff_slope
-    plot_vrad_vs_parameter(df_all_results, "tradeoff_slope", 
-                          "RQ3.1: Impact of Trade-off Severity",
-                          analysis_output_path / "RQ3_1_vrad_vs_tradeoff_slope.png",
-                          xlabel="Trade-off Slope")
-
-    # Enhanced Analysis Functions
-    analyze_strategy_crossovers(df_all_results, analysis_output_path)
-    analyze_bet_hedging_mechanisms(df_all_results, analysis_output_path)
-
-    logger.info(f"Analysis plots saved in {analysis_output_path}")
-
-if __name__ == "__main__":
-    main()
+                                  analysis_output_path / f"RQ2_1_vrad_vs_prob_bet_W
