@@ -1,0 +1,5 @@
+# microbial_colony_sim/config/experiment_configs/bet_hedging_mixed.yaml
+experiment_name: "bet_hedging_0.5" # Example name for a 50/50 bet-hedging strategy
+
+strategies:
+  prob_daughter_inherits_prototype_1: 0.5 # Stochastic Bet-Hedging (50/50)

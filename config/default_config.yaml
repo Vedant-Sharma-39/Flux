@@ -1,0 +1,35 @@
+# microbial_colony_sim/config/default_config.yaml
+
+# Default simulation parameters
+experiment_name: "default_simulation"
+
+simulation:
+  dt: 0.1
+  max_simulation_time: 200.0 # Total simulation time
+  initial_cell_count: 5
+  initial_colony_radius: 1.5 # Radius for placing initial cells (e.g. in a disk)
+
+environment:
+  W_band: 10.0 # Uniform width of each alternating G and L nutrient band
+  # grid_type: "hexagonal" # Implicit for now
+  # max_grid_radius: 100.0 # If we want a bounded grid for performance/analysis
+
+strategies: # Parameters defining cell behavior and strategy spectrum
+  g_rate_prototype_1: 0.1 # inherent_growth_rate_G for "Prototype 1" (Low Lag / Lower G-Growth)
+  g_rate_prototype_2: 0.5 # inherent_growth_rate_G for "Prototype 2" (High Growth / Higher G-Lag)
+  prob_daughter_inherits_prototype_1: 0.5 # Defines the strategy for the run (0.0, 1.0, or 0.0 < val < 1.0)
+  lambda_L_fixed_rate: 0.1 # Growth rate on Galactose for any L_specialist
+
+trade_off_params: # Parameters for the trade_off_lag_vs_growth() function
+  T_lag_min: 1.0 # e.g., T_lag_min for linear: T_lag = T_lag_min + slope * growth_rate_G
+  slope: 20.0 # e.g., slope for linear trade-off
+
+analysis:
+  metrics_interval_time: 1.0 # How often (sim time) to collect/log metrics
+  data_output_path: "results/" # Base path for saving data
+
+visualization:
+  visualization_enabled: true
+  animation_save_path: "animations/"
+  animation_frame_interval: 10
+  hex_pixel_size: 10.0

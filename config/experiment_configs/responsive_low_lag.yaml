@@ -1,0 +1,9 @@
+# microbial_colony_sim/config/experiment_configs/responsive_low_lag.yaml
+experiment_name: "responsive_low_lag"
+
+strategies:
+  prob_daughter_inherits_prototype_1: 1.0 # Deterministic "Responsive Low-Lag"
+
+# Can override other defaults if needed, e.g.:
+# simulation:
+#   max_simulation_time: 300.0

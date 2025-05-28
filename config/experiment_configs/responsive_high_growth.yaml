@@ -1,0 +1,5 @@
+# microbial_colony_sim/config/experiment_configs/responsive_high_growth.yaml
+experiment_name: "responsive_high_growth"
+
+strategies:
+  prob_daughter_inherits_prototype_1: 0.0 # Deterministic "Responsive High-Growth"

@@ -1,0 +1,4 @@
+2025-05-27 16:24:34,648 - sim.responsive_high_growth - INFO - simulation_engine:47 - Initializing SimulationEngine for experiment: responsive_high_growth
+2025-05-27 16:24:34,650 - sim.responsive_high_growth - INFO - simulation_engine:76 - Visualization enabled. Output will be in visualizations\responsive_high_growth
+2025-05-27 16:24:34,650 - sim.responsive_high_growth - INFO - simulation_engine:250 - Starting simulation run for experiment: responsive_high_growth
+2025-05-27 16:24:34,650 - sim.responsive_high_growth - INFO - simulation_engine:254 - Colony initialized with 5 cells.
