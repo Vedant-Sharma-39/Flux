@@ -14,14 +14,23 @@ class PopulationManager:
     """A class to manage the population of cells in a grid."""
 
     population: Dict[Tuple[int, int], Cell] = field(default_factory=dict)
-
     _total_cells: int = 0
+
     phenotype_map: Dict[Phenotype, Set[Cell]] = field(
         default_factory=lambda: {
             phenotype_enum_member: set() for phenotype_enum_member in Phenotype
         }
     )
     frontier_cells: Set[Cell] = field(default_factory=set)
+
+    def get_empty_neighbors(self, coords: Tuple[int, int]) -> List[Tuple[int, int]]:
+        """Get the coordinates of empty neighboring cells."""
+        neighbors = get_neighbors(coords)
+        empty_neighbors = []
+        for neighbor in neighbors:
+            if neighbor not in self.population:
+                empty_neighbors.append(neighbor)
+        return empty_neighbors
 
     def is_frontier_cell(self, coords: Tuple[int, int]) -> bool:
         """Check if the cell at the given coordinates is a frontier cell."""
@@ -76,12 +85,3 @@ class PopulationManager:
     def get_total_cells(self) -> int:
         """Get the total number of cells in the population."""
         return self._total_cells
-
-    def get_empty_neighbors(self, coords: Tuple[int, int]) -> List[Tuple[int, int]]:
-        """Get the coordinates of empty neighboring cells."""
-        neighbors = get_neighbors(coords)
-        empty_neighbors = []
-        for neighbor in neighbors:
-            if neighbor not in self.population:
-                empty_neighbors.append(neighbor)
-        return empty_neighbors
