@@ -1,0 +1,4 @@
+# Add your research simulation dependencies below
+numpy
+scipy
+matplotlib
