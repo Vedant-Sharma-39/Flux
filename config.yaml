@@ -3,7 +3,7 @@
 
 # --- Run Control & Output ---
 num_steps: 1000 # Longer run to see pattern development
-output_dir: "results/BH_sectored_transient_2" # CHANGE 'X' FOR EACH PARAMETER SET BELOW
+output_dir: "results/sample_run" # CHANGE 'X' FOR EACH PARAMETER SET BELOW
 log_interval: 100 # Log/Plot snapshot every 100 steps
 plot_dpi: 250
 random_seed: 1234 # Use a consistent seed for comparing parameter sets initially
@@ -37,9 +37,9 @@ growth_rates:
 # --- Switching Rates for Bet-Hedging (probabilities per time step) ---
 switching_rates:
   # G to P switch rate
-  k_GP: 0.001 # Low rate to allow P to emerge slowly
+  k_GP: 0.005 # Low rate to allow P to emerge slowly
   # P to G switch rate
-  k_PG: 0.05 # Low rate to maintain some G presence
+  k_PG: 0.005 # Low rate to maintain some G presence
 
 # --- Simulation Run Control ---
 active_conflict_rule: "RANDOM_CHOICE"

@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Tuple, Optional  # Added Optional
+from typing import List, Tuple, Optional
 
 
 # --- Coordinate System ---
@@ -29,10 +29,8 @@ class HexCoord:
 
 # --- Cell Phenotypes ---
 class Phenotype(Enum):
-    G_UNPREPARED = (
-        1  # Growth-optimized for N1, intrinsically poor/slow adaptation to N2
-    )
-    P_PREPARED = 2  # Slower on N1 (costly), intrinsically good/fast adaptation to N2
+    G_UNPREPARED = 1
+    P_PREPARED = 2
 
 
 # --- Nutrient Types ---
@@ -46,7 +44,7 @@ class Nutrient(Enum):
 class ConflictResolutionRule(Enum):
     RANDOM_CHOICE = 1
     FITNESS_BIASED_LOTTERY = 2
-    # FIRST_COME_FIRST_SERVED = 3 # Commented out if not implemented
+    # FIRST_COME_FIRST_SERVED = 3 # Keep commented if not yet implemented
 
 
 # --- Simulation Parameters ---
@@ -57,20 +55,20 @@ class SimulationParameters:
 
     lambda_G_N1: float
     alpha_G_N2: float
-    lag_G_N2: float  # Non-dimensional (in units of T_ref, or steps if dt_eff = 1)
+    lag_G_N2: float
     lambda_G_N2_adapted: float
 
-    cost_delta_P: float  # cost_delta_P for P_PREPARED on N1
+    cost_delta_P: float
     alpha_P_N2: float
-    lag_P_N2: float  # Non-dimensional
+    lag_P_N2: float
     lambda_P_N2: float
 
-    k_GP: float  # G to P switching probability per time step
-    k_PG: float  # P to G switching probability per time step
-    initial_colony_radius: int
-    initial_phenotype_G_fraction: (
-        float  # Fraction of initial cells that are G_UNPREPARED
-    )
-    active_conflict_rule: ConflictResolutionRule
-    nutrient_bands: List[Tuple[float, Nutrient]] = field(default_factory=list)
+    k_GP: float
+    k_PG: float
 
+    active_conflict_rule: ConflictResolutionRule
+    initial_colony_radius: int
+    initial_phenotype_G_fraction: float
+    nutrient_bands: List[Tuple[float, Nutrient]] = field(
+        default_factory=list
+    )  # (radius_sq, Nutrient)
