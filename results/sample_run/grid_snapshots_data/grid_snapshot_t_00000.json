@@ -2,7 +2,7 @@
   {
     "q": 0,
     "r": 0,
-    "id": "8d768683-5280-458a-af62-1f4aa0a755f6",
+    "id": "db2bcae9-74a7-49c3-b7c1-93dde21965a4",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -13,7 +13,7 @@
   {
     "q": -1,
     "r": 1,
-    "id": "da505c04-d5a4-4639-b4b5-d266947fcfca",
+    "id": "f0e0e182-0096-4a61-9be1-d2bbad91c26e",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -24,7 +24,7 @@
   {
     "q": 0,
     "r": 1,
-    "id": "25569dd0-e8be-4986-ac53-a8fc11b8372f",
+    "id": "114618a7-95b1-4d85-9aab-87a543826399",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -35,7 +35,7 @@
   {
     "q": 1,
     "r": 0,
-    "id": "f238c066-b2e0-4ac5-a1ff-36c3c570ad1b",
+    "id": "3c6a27e8-61bd-4669-9ca8-a6f1f391a53f",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -46,7 +46,7 @@
   {
     "q": 1,
     "r": -1,
-    "id": "0301b725-12aa-4140-995d-058b229d73bd",
+    "id": "baffe97d-300e-44a5-a546-e454506ed605",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -57,7 +57,7 @@
   {
     "q": 0,
     "r": -1,
-    "id": "9c74cdd5-f3d7-401f-975a-98550e5b36f2",
+    "id": "d8282ada-7fd4-48ac-97af-8ddcc52ebe3b",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -68,7 +68,7 @@
   {
     "q": -1,
     "r": 0,
-    "id": "873d079f-9a88-42d2-96fa-8951700d7093",
+    "id": "3a65f864-867e-402c-b113-6b945678c957",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -79,7 +79,7 @@
   {
     "q": -2,
     "r": 2,
-    "id": "f548750a-e61a-49eb-8de0-adf53bc9775f",
+    "id": "1f5b0f05-0dc1-4c4c-ac99-480ecf700b15",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -90,7 +90,7 @@
   {
     "q": -1,
     "r": 2,
-    "id": "d75460aa-50b0-4c34-805a-dfb81f6cfefc",
+    "id": "c35cd606-2988-4c6a-a141-7b7cf292e698",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -101,7 +101,7 @@
   {
     "q": 0,
     "r": 2,
-    "id": "6e2a9ba2-77ca-48ed-a217-598de7ed5d5a",
+    "id": "a6500354-9591-4de5-9965-b67d00388435",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -112,7 +112,7 @@
   {
     "q": 1,
     "r": 1,
-    "id": "072c57f6-4841-4cb6-8017-c1ae71c0ea1a",
+    "id": "9fb55882-6019-48cb-9325-eab2410b3192",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -123,7 +123,7 @@
   {
     "q": 2,
     "r": 0,
-    "id": "6e8ffbfb-5391-4b41-bd73-679e9054f581",
+    "id": "4f95ade0-7757-492c-b322-0a3e8edcf4a7",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -134,7 +134,7 @@
   {
     "q": 2,
     "r": -1,
-    "id": "fc51b4da-f47e-4fc1-aef7-0b318d6ef449",
+    "id": "5b802e22-67d9-4796-9dbc-10af1e35a774",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -145,7 +145,7 @@
   {
     "q": 2,
     "r": -2,
-    "id": "97f96b6b-0639-47fc-aa73-8571e8d50b8e",
+    "id": "3efe44a1-c500-4458-ac63-640c0ee67951",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -156,7 +156,7 @@
   {
     "q": 1,
     "r": -2,
-    "id": "3ad452cc-5b6f-4911-8e7a-5a23f2569234",
+    "id": "18a58073-6941-40da-ab83-369da98bc065",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -167,7 +167,7 @@
   {
     "q": 0,
     "r": -2,
-    "id": "add94be5-f3c0-4aaf-b779-95613ed1806a",
+    "id": "2ea744bd-27b2-47d1-a480-bcfb12c63231",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -178,7 +178,7 @@
   {
     "q": -1,
     "r": -1,
-    "id": "a4089e19-3912-411d-b331-4398f63a7ba5",
+    "id": "fa5c85ad-7b3d-4790-936e-b8ed4d1ef9ce",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -189,7 +189,7 @@
   {
     "q": -2,
     "r": 0,
-    "id": "d44b7e2f-9bf1-4262-be83-50210c3b243a",
+    "id": "f3d04247-fd52-4df6-86a8-03cc226bae2c",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -200,7 +200,7 @@
   {
     "q": -2,
     "r": 1,
-    "id": "19c5090b-c68c-4c20-a6e5-be05884656a9",
+    "id": "71c2e838-e161-4d28-bd5d-e5edeaa8db5c",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -211,7 +211,7 @@
   {
     "q": -3,
     "r": 3,
-    "id": "38b30bec-742c-4e6e-84b2-97de67c58815",
+    "id": "5800138d-0f29-4f5c-8b37-960be1b92392",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -222,7 +222,7 @@
   {
     "q": -2,
     "r": 3,
-    "id": "58ee57e8-01f4-4ae0-8700-40b4c67b0db4",
+    "id": "6e60a208-24d7-4d9a-a17f-b39ec7a2364f",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -233,7 +233,7 @@
   {
     "q": -1,
     "r": 3,
-    "id": "f18bad71-a331-491d-aea4-c2821bf3e6a7",
+    "id": "49a439b2-d71a-4aa0-8d5d-6bd14866cf95",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -244,7 +244,7 @@
   {
     "q": 0,
     "r": 3,
-    "id": "d0f4c81e-17ac-405e-82bd-749e14df4f46",
+    "id": "f7695e8c-10b8-4e37-9cab-3e02a912fb1e",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -255,7 +255,7 @@
   {
     "q": 1,
     "r": 2,
-    "id": "eb9e5684-0ae3-4d10-912b-4c5c8778aac9",
+    "id": "11d46622-df29-44e8-a3ba-c36aa56d1b4d",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -266,7 +266,7 @@
   {
     "q": 2,
     "r": 1,
-    "id": "7adb40e0-7c34-43bf-a023-30ffcac5ae62",
+    "id": "4f8c5547-0226-4c1c-8d70-d351028af58d",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -277,7 +277,7 @@
   {
     "q": 3,
     "r": 0,
-    "id": "7e1a9e8e-1b8b-4363-a787-4e3c58f34ac7",
+    "id": "7232803e-1360-454f-bc5a-1f14cb952849",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -288,7 +288,7 @@
   {
     "q": 3,
     "r": -1,
-    "id": "551daea1-4b23-4588-8e30-98bb3b444578",
+    "id": "dd904170-bcd9-464b-bd33-fde5727edd83",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -299,7 +299,7 @@
   {
     "q": 3,
     "r": -2,
-    "id": "7f11695d-df14-40cd-85af-baf0a067f91e",
+    "id": "184a3ac8-824a-43c4-b9d4-ca5ad8072f09",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -310,7 +310,7 @@
   {
     "q": 3,
     "r": -3,
-    "id": "fcaeb957-096b-433f-8767-aa57220122c7",
+    "id": "14d3865b-93f8-4251-b07b-f08a51ecf4d9",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -321,7 +321,7 @@
   {
     "q": 2,
     "r": -3,
-    "id": "7cf7f2aa-ff30-47b3-ba3d-3ecf8d376c64",
+    "id": "bb7976fa-af08-4702-aea4-f1e29790c229",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -332,7 +332,7 @@
   {
     "q": 1,
     "r": -3,
-    "id": "1fb29cbd-5840-43ee-ba4b-fa666cbbed35",
+    "id": "2a1dfbcb-bbb1-40cd-a404-29e37b7fa2b5",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -343,7 +343,7 @@
   {
     "q": 0,
     "r": -3,
-    "id": "b9035c20-a9c7-41a4-b910-c3aa6d84f32a",
+    "id": "1eaafcd9-a2f4-40a5-8a67-ae9347fbbc44",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -354,7 +354,7 @@
   {
     "q": -1,
     "r": -2,
-    "id": "ade236cc-b1c9-408c-b2ec-6c3afd662d03",
+    "id": "c58e75fa-59e6-4b93-9c7e-489dcdcb3757",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -365,7 +365,7 @@
   {
     "q": -2,
     "r": -1,
-    "id": "4a1b31aa-0e48-48c7-9e6b-c30e1eadc907",
+    "id": "b9711d43-8351-4da6-88e1-986792fde33f",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -376,7 +376,7 @@
   {
     "q": -3,
     "r": 0,
-    "id": "fce49679-4803-40db-875f-a18adac98a61",
+    "id": "0c8e7b52-2a7f-4007-8ee4-1309e6b5f0dc",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -387,7 +387,7 @@
   {
     "q": -3,
     "r": 1,
-    "id": "fb8277f5-599b-4c65-888b-c4f3c6c59f23",
+    "id": "bf934df5-4f4b-4183-b545-b0107371adbb",
     "phenotype": "P_PREPARED",
     "generation": 0,
     "birth_time": 0.0,
@@ -398,7 +398,7 @@
   {
     "q": -3,
     "r": 2,
-    "id": "b9793cc1-a5b2-487d-ba28-c6350e0a32e7",
+    "id": "6945eb5c-97b7-460c-aca8-04a61cbe3475",
     "phenotype": "G_UNPREPARED",
     "generation": 0,
     "birth_time": 0.0,
