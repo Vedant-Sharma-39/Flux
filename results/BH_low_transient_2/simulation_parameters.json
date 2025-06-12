@@ -1,0 +1,23 @@
+{
+    "hex_size": 10.0,
+    "time_step_duration": 1.0,
+    "lambda_G_N1": 0.1,
+    "alpha_G_N2": 0.01,
+    "lag_G_N2": 25.0,
+    "lambda_G_N2_adapted": 0.03,
+    "cost_delta_P": 0.01,
+    "alpha_P_N2": 0.9,
+    "lag_P_N2": 2.0,
+    "lambda_P_N2": 0.03,
+    "k_GP": 0.001,
+    "k_PG": 0.05,
+    "initial_colony_radius": 3,
+    "initial_phenotype_G_fraction": 0.5,
+    "active_conflict_rule": "RANDOM_CHOICE",
+    "nutrient_bands": [
+        [
+            Infinity,
+            "N1_PREFERRED"
+        ]
+    ]
+}
