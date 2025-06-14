@@ -72,3 +72,4 @@ class SimulationParameters:
     nutrient_bands: List[Tuple[float, Nutrient]] = field(
         default_factory=list
     )  # (radius_sq, Nutrient)
+    save_grid_data_interval: Optional[int] = None

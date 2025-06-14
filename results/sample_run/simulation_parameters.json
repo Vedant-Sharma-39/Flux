@@ -19,5 +19,6 @@
             Infinity,
             "N1_PREFERRED"
         ]
-    ]
+    ],
+    "save_grid_data_interval": 10
 }
